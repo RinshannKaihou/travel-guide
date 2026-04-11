@@ -60,15 +60,15 @@ Tel: +47 70 26 83 00 |
 
 ---
 
-## Day 5 | Wednesday – Geiranger → Trollstigen → Atlantic Ocean Road → Kristiansund
+## Day 5 | Wednesday – Geiranger → Eagle Road → Gudbrandsjuvet → Atlantic Ocean Road → Kristiansund
 | | |
 |:---|:---|
 | **City** | Kristiansund, Norway |
-| **Transportation** | Self-drive: Geiranger → Trollstigen → Åndalsnes → Molde → Atlantic Ocean Road → Kristiansund. Total driving ~250 km. Return the first rental car at Ålesund Airport (AES) with a one-way drop-off fee. |
+| **Transportation** | Self-drive: Geiranger → Ørnevegen (Eagle Road) → Eidsdal–Linge ferry → Valldal → Gudbrandsjuvet → Vestnes / Molde → Atlantic Ocean Road → Kristiansund. Total driving ~300 km. |
 | **Accommodation** | **Thon Hotel Kristiansund**  
 Fosnagata 24, 6510 Kristiansund, Norway  
 Tel: +47 71 57 35 00 |
-| **Activities** | Drive Trollstigen (Troll’s Ladder), 11 dramatic hairpin bends with Stigfossen waterfall. Visit Trollstigen Visitor Centre and viewpoints. Continue via the Atlantic Ocean Road (Atlanterhavsveien), crossing the iconic Storseisundet Bridge. Evening arrival in Kristiansund. |
+| **Activities** | Scenic drive over Ørnevegen (Eagle Road) with panoramic Geirangerfjord views. Stop at Gudbrandsjuvet gorge viewpoint in Valldal. Continue via the Atlantic Ocean Road (Atlanterhavsveien), crossing the iconic Storseisundet Bridge. Evening arrival in Kristiansund. |
 
 ---
 
