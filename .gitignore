@@ -6,7 +6,6 @@ map-data.bundle.js
 
 # Claude Code local
 .claude/settings.local.json
-.skills/
 
 # Python
 __pycache__/
