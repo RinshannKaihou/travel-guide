@@ -1,0 +1,155 @@
+{
+  "plan_id": "nz",
+  "name": "新西兰南岛",
+  "color": "#4ecdc4",
+  "center": [-44.5, 169.5],
+  "zoom": 7,
+  "points": [
+    {
+      "id": "chc",
+      "name": "基督城",
+      "aliases": ["Christchurch", "克赖斯特彻奇"],
+      "lat": -43.5321,
+      "lng": 172.6362,
+      "img": "christchurch.jpg",
+      "desc": "南岛最大城市，花园之城，雅芳河畔的英式风情与地震重生后的现代建筑。",
+      "tags": ["城市"],
+      "docAnchor": "d1"
+    },
+    {
+      "id": "tek",
+      "name": "特卡波湖",
+      "aliases": ["Lake Tekapo", "蒂卡波湖"],
+      "lat": -44.0046,
+      "lng": 170.4762,
+      "img": "lake_tekapo.jpg",
+      "desc": "牛奶蓝冰川湖与好牧羊人教堂，全球最大暗夜保护区的核心，南半球最美星空观测地。",
+      "tags": ["自然", "星空"],
+      "docAnchor": "d2"
+    },
+    {
+      "id": "mtc",
+      "name": "库克山",
+      "aliases": ["Mt Cook", "Aoraki", "奥拉基"],
+      "lat": -43.5950,
+      "lng": 170.1418,
+      "img": "mt_cook.jpg",
+      "desc": "新西兰最高峰（3724m），胡克谷步道通往冰川湖，南阿尔卑斯山脉的核心。",
+      "tags": ["山峰", "冰川", "徒步"],
+      "docAnchor": "d3"
+    },
+    {
+      "id": "mrk",
+      "name": "摩拉基大圆石",
+      "aliases": ["Moeraki Boulders"],
+      "lat": -45.3439,
+      "lng": 170.8263,
+      "img": "moeraki.jpg",
+      "desc": "海滩上散落的巨型球形石头，如恐龙蛋般神秘，6000万年地质奇观。",
+      "tags": ["自然", "海岸"],
+      "docAnchor": "d4"
+    },
+    {
+      "id": "dud",
+      "name": "但尼丁",
+      "aliases": ["Dunedin", "达尼丁"],
+      "lat": -45.8788,
+      "lng": 170.5028,
+      "img": "dunedin.jpg",
+      "desc": "南半球的'爱丁堡'，维多利亚建筑、世界最陡街道和苏格兰风情。",
+      "tags": ["城市", "历史"],
+      "docAnchor": "d4"
+    },
+    {
+      "id": "tea",
+      "name": "蒂阿瑙",
+      "aliases": ["Te Anau"],
+      "lat": -45.4147,
+      "lng": 167.7138,
+      "img": "te_anau.jpg",
+      "desc": "峡湾门户小镇，新西兰第二大湖畔，通往米尔福德峡湾的必经之路。",
+      "tags": ["自然", "湖泊"],
+      "docAnchor": "d5"
+    },
+    {
+      "id": "mfk",
+      "name": "米尔福德峡湾",
+      "aliases": ["Milford Sound", "皮奥皮奥塔希"],
+      "lat": -44.6716,
+      "lng": 167.9266,
+      "img": "milford_sound.jpg",
+      "desc": "世界第八大奇迹，米特峰从海面垂直拔起1692米，瀑布、海豹与峡湾巡游。",
+      "tags": ["峡湾", "瀑布"],
+      "docAnchor": "d6"
+    },
+    {
+      "id": "qtn",
+      "name": "皇后镇",
+      "aliases": ["Queenstown"],
+      "lat": -45.0312,
+      "lng": 168.6626,
+      "img": "queenstown.jpg",
+      "desc": "世界冒险之都，天际缆车、滑翔伞、喷射快艇，被雪山和湖泊环绕。",
+      "tags": ["城市", "滑翔伞", "美食"],
+      "docAnchor": "d7"
+    },
+    {
+      "id": "gib",
+      "name": "吉布斯顿酒庄",
+      "aliases": ["Gibbston Valley", "Gibbston"],
+      "lat": -45.0207,
+      "lng": 168.9036,
+      "img": "gibbston_wine.jpg",
+      "desc": "世界最南端葡萄酒产区之一，以黑皮诺闻名，山谷中的精品酒庄群。",
+      "tags": ["红酒"],
+      "docAnchor": "d8"
+    }
+  ],
+  "routes": [
+    {
+      "from": "chc",
+      "to": "tek",
+      "type": "drive"
+    },
+    {
+      "from": "tek",
+      "to": "mtc",
+      "type": "drive"
+    },
+    {
+      "from": "mtc",
+      "to": "mrk",
+      "type": "drive"
+    },
+    {
+      "from": "mrk",
+      "to": "dud",
+      "type": "drive"
+    },
+    {
+      "from": "dud",
+      "to": "tea",
+      "type": "drive"
+    },
+    {
+      "from": "tea",
+      "to": "mfk",
+      "type": "drive"
+    },
+    {
+      "from": "mfk",
+      "to": "tea",
+      "type": "drive"
+    },
+    {
+      "from": "tea",
+      "to": "qtn",
+      "type": "drive"
+    },
+    {
+      "from": "qtn",
+      "to": "gib",
+      "type": "drive"
+    }
+  ]
+}

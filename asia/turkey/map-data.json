@@ -1,0 +1,235 @@
+{
+  "plan_id": "turkey",
+  "name": "土耳其",
+  "color": "#f4a3a8",
+  "center": [
+    38.5,
+    33
+  ],
+  "zoom": 6,
+  "points": [
+    {
+      "id": "gr",
+      "name": "格雷梅/卡帕多奇亚",
+      "aliases": [
+        "格雷梅",
+        "卡帕多奇亚"
+      ],
+      "lat": 38.6431,
+      "lng": 34.829,
+      "img": "goreme_cave_hotel.jpg",
+      "desc": "卡帕多奇亚的灵魂，凿穿火山凝灰岩而建的洞穴酒店与仙人烟囱的月球地貌。",
+      "tags": [
+        "洞穴酒店",
+        "热气球"
+      ],
+      "docAnchor": "d1"
+    },
+    {
+      "id": "ba",
+      "name": "热气球起飞点",
+      "aliases": [
+        "热气球"
+      ],
+      "lat": 38.65,
+      "lng": 34.83,
+      "img": "cappadocia_balloons.jpg",
+      "desc": "地球上最像月球的地方被数百只彩色热气球点燃，玫瑰金色山谷的日出奇观。",
+      "tags": [
+        "热气球",
+        "日出"
+      ],
+      "docAnchor": "d2"
+    },
+    {
+      "id": "oa",
+      "name": "格雷梅露天博物馆",
+      "lat": 38.6436,
+      "lng": 34.8469,
+      "img": "goreme_open_air_museum.jpg",
+      "desc": "拜占庭时期修道院社区遗址，黑暗教堂内保存着10～12世纪的精美壁画。",
+      "tags": [
+        "博物馆",
+        "壁画"
+      ],
+      "docAnchor": "d2"
+    },
+    {
+      "id": "uc",
+      "name": "乌奇希萨尔城堡",
+      "lat": 38.6286,
+      "lng": 34.8025,
+      "img": "uchisar_castle.jpg",
+      "desc": "卡帕多奇亚地区的最高点，由整块火山岩雕琢而成，360度俯瞰玫瑰谷与爱情谷。",
+      "tags": [
+        "城堡",
+        "俯瞰"
+      ],
+      "docAnchor": "d3"
+    },
+    {
+      "id": "de",
+      "name": "德林库尤地下城",
+      "lat": 38.375,
+      "lng": 34.735,
+      "img": "derinkuyu_underground_city.jpg",
+      "desc": "始建于公元前8世纪的地下迷宫，最深达85米，可容纳约2万人的古代避难所。",
+      "tags": [
+        "地下城",
+        "历史"
+      ],
+      "docAnchor": "d3"
+    },
+    {
+      "id": "an",
+      "name": "安塔利亚老城",
+      "lat": 36.8969,
+      "lng": 30.7133,
+      "img": "antalya_old_town.jpg",
+      "desc": "地中海门户，奥斯曼老宅与罗马港交织的古城，哈德良门见证2000年历史。",
+      "tags": [
+        "城市",
+        "海港"
+      ],
+      "docAnchor": "d4"
+    },
+    {
+      "id": "ka",
+      "name": "卡什",
+      "lat": 36.2018,
+      "lng": 29.6383,
+      "img": "kas_harbor.jpg",
+      "desc": "D400公路边的地中海风情小镇，彩色房屋、古帆船港口与顶级潜水胜地。",
+      "tags": [
+        "小镇",
+        "潜水"
+      ],
+      "docAnchor": "d5"
+    },
+    {
+      "id": "kp",
+      "name": "Kaputas Beach",
+      "lat": 36.2267,
+      "lng": 29.4567,
+      "img": "kaputas_beach.jpg",
+      "desc": "悬崖夹缝中的奶蓝色海湾，被称为土耳其最美海滩的果冻海。",
+      "tags": [
+        "海滩",
+        "蓝湖"
+      ],
+      "docAnchor": "d6"
+    },
+    {
+      "id": "kk",
+      "name": "Kekova 沉没之城",
+      "lat": 36.1833,
+      "lng": 29.85,
+      "img": "kekova_sunken_city.jpg",
+      "desc": "公元2世纪地震沉没的古罗马港口城市，透过清澈浅水可见水下台阶与码头遗迹。",
+      "tags": [
+        "遗迹",
+        "游船"
+      ],
+      "docAnchor": "d6"
+    },
+    {
+      "id": "ol",
+      "name": "Ölüdeniz 蓝湖",
+      "lat": 36.5494,
+      "lng": 29.115,
+      "img": "oludeniz_beach.jpg",
+      "desc": "土耳其死海，被沙洲隔开的海湾呈现出白色到绿松石蓝的梦幻渐变。",
+      "tags": [
+        "海滩",
+        "滑翔伞"
+      ],
+      "docAnchor": "d7"
+    },
+    {
+      "id": "pg",
+      "name": "费特希耶滑翔伞",
+      "lat": 36.621,
+      "lng": 29.116,
+      "img": "paragliding_oludeniz.jpg",
+      "desc": "全球最佳滑翔伞体验地之一，从1900米Babadağ山顶俯瞰蓝湖全景的极限浪漫。",
+      "tags": [
+        "滑翔伞",
+        "极限"
+      ],
+      "docAnchor": "d8"
+    },
+    {
+      "id": "bv",
+      "name": "蝴蝶谷",
+      "lat": 36.4617,
+      "lng": 29.1247,
+      "img": "butterfly_valley.jpg",
+      "desc": "被350米高悬崖环绕的隐秘峡谷，溪流瀑布与80多种蝴蝶共舞的世外海滩。",
+      "tags": [
+        "山谷",
+        "瀑布"
+      ],
+      "docAnchor": "d8"
+    },
+    {
+      "id": "d4",
+      "name": "D400 公路",
+      "lat": 36.4,
+      "lng": 29.3,
+      "img": "d400_coastal_road.jpg",
+      "desc": "全球最美沿海公路之一，左手托罗斯山脉苍翠峭壁，右手地中海果冻蓝。",
+      "tags": [
+        "自驾",
+        "海景"
+      ],
+      "docAnchor": "d5"
+    }
+  ],
+  "routes": [
+    {
+      "from": "gr",
+      "to": "uc",
+      "type": "drive"
+    },
+    {
+      "from": "uc",
+      "to": "de",
+      "type": "drive"
+    },
+    {
+      "from": "de",
+      "to": "an",
+      "type": "fly"
+    },
+    {
+      "from": "an",
+      "to": "ka",
+      "type": "drive"
+    },
+    {
+      "from": "ka",
+      "to": "kp",
+      "type": "drive"
+    },
+    {
+      "from": "kp",
+      "to": "kk",
+      "type": "ferry"
+    },
+    {
+      "from": "kk",
+      "to": "ol",
+      "type": "drive"
+    },
+    {
+      "from": "ol",
+      "to": "bv",
+      "type": "ferry"
+    },
+    {
+      "from": "ol",
+      "to": "pg",
+      "type": "drive"
+    }
+  ]
+}

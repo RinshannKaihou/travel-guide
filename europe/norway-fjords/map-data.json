@@ -1,0 +1,252 @@
+{
+  "plan_id": "norway-fjords",
+  "name": "挪威峡湾",
+  "color": "#9ecbf3",
+  "center": [
+    62,
+    8
+  ],
+  "zoom": 6,
+  "points": [
+    {
+      "id": "os",
+      "name": "奥斯陆",
+      "lat": 59.9139,
+      "lng": 10.7522,
+      "img": "oslo.jpg",
+      "desc": "首都入口，歌剧院白色大理石屋顶滑入海中。",
+      "tags": [
+        "城市"
+      ],
+      "docAnchor": "d1"
+    },
+    {
+      "id": "be",
+      "name": "卑尔根",
+      "lat": 60.3913,
+      "lng": 5.3221,
+      "img": "bryggen.jpg",
+      "desc": "布吕根彩色木屋，弗洛伊恩山俯瞰峡湾之门。",
+      "tags": [
+        "城市",
+        "海鲜"
+      ],
+      "docAnchor": "d2"
+    },
+    {
+      "id": "fl",
+      "name": "弗洛姆 / 高山火车",
+      "aliases": [
+        "弗洛姆",
+        "高山火车"
+      ],
+      "lat": 60.8633,
+      "lng": 7.114,
+      "img": "flamsbana.jpg",
+      "desc": "世界最陡铁路，Kjosfossen瀑布站有山妖舞者表演。",
+      "tags": [
+        "火车",
+        "瀑布"
+      ],
+      "docAnchor": "d3"
+    },
+    {
+      "id": "au",
+      "name": "艾于兰峡湾",
+      "lat": 60.9078,
+      "lng": 7.1896,
+      "img": "aurlandsfjorden.jpg",
+      "desc": "纳柔依峡湾世界遗产，落地窗正对雪山与峡湾。",
+      "tags": [
+        "峡湾",
+        "民宿"
+      ],
+      "docAnchor": "d3"
+    },
+    {
+      "id": "ge",
+      "name": "盖朗厄尔峡湾",
+      "lat": 62.1048,
+      "lng": 7.0758,
+      "img": "geirangerfjord.jpg",
+      "desc": "七姐妹瀑布，Hotel Union的室外温水泳池直面峡湾。",
+      "tags": [
+        "峡湾",
+        "瀑布"
+      ],
+      "docAnchor": "d4"
+    },
+    {
+      "id": "or",
+      "name": "老鹰之路",
+      "lat": 62.104,
+      "lng": 7.202,
+      "img": "ornevegen.jpg",
+      "desc": "11个发卡弯攀升620米，俯瞰峡湾如深蓝丝带。",
+      "tags": [
+        "自驾",
+        "观景"
+      ],
+      "docAnchor": "d4"
+    },
+    {
+      "id": "tr",
+      "name": "精灵之路",
+      "aliases": [
+        "Trollstigen"
+      ],
+      "lat": 62.45,
+      "lng": 7.68,
+      "img": "trollstigen.jpg",
+      "desc": "巨魔之梯，悬空观景平台俯瞰全部发卡弯。",
+      "tags": [
+        "自驾",
+        "瀑布"
+      ],
+      "docAnchor": "d5"
+    },
+    {
+      "id": "at",
+      "name": "大西洋公路",
+      "lat": 63.0086,
+      "lng": 7.3581,
+      "img": "atlantic_road.jpg",
+      "desc": "通天之路，Storseisundet大桥仿佛断入大海。",
+      "tags": [
+        "自驾",
+        "海景"
+      ],
+      "docAnchor": "d5"
+    },
+    {
+      "id": "ks",
+      "name": "克里斯蒂安松",
+      "lat": 63.1118,
+      "lng": 7.728,
+      "img": "kristiansund.jpg",
+      "desc": "大西洋鳕鱼贸易小城，转场去罗弗敦的中转站。",
+      "tags": [
+        "渔村"
+      ],
+      "docAnchor": "d5"
+    },
+    {
+      "id": "re",
+      "name": "雷讷",
+      "lat": 67.9328,
+      "lng": 13.1296,
+      "img": "reine_rorbu.jpg",
+      "desc": "罗弗敦最美渔村，红色渔民小屋建于水面木桩之上。",
+      "tags": [
+        "渔村",
+        "极光"
+      ],
+      "docAnchor": "d6"
+    },
+    {
+      "id": "rb",
+      "name": "Reinebringen",
+      "lat": 67.933,
+      "lng": 13.1,
+      "img": "reinebringen.jpg",
+      "desc": "罗弗敦排名第一的徒步路线，登顶后俯瞰最美全景。",
+      "tags": [
+        "徒步",
+        "摄影"
+      ],
+      "docAnchor": "d7"
+    },
+    {
+      "id": "hn",
+      "name": "亨宁斯韦尔",
+      "lat": 68.1517,
+      "lng": 14.1994,
+      "img": "henningsvaer_stadium.jpg",
+      "desc": "世界最美足球场，三面环海，背后锯齿状山峰。",
+      "tags": [
+        "奇观",
+        "小镇"
+      ],
+      "docAnchor": "d7"
+    },
+    {
+      "id": "sv",
+      "name": "斯沃尔韦尔",
+      "lat": 68.2345,
+      "lng": 14.5636,
+      "img": "svolvaer.jpg",
+      "desc": "罗弗敦门户，机场返程飞回奥斯陆。",
+      "tags": [
+        "小镇"
+      ],
+      "docAnchor": "d8"
+    }
+  ],
+  "routes": [
+    {
+      "from": "os",
+      "to": "be",
+      "type": "fly"
+    },
+    {
+      "from": "be",
+      "to": "fl",
+      "type": "train"
+    },
+    {
+      "from": "fl",
+      "to": "au",
+      "type": "ferry"
+    },
+    {
+      "from": "au",
+      "to": "ge",
+      "type": "drive"
+    },
+    {
+      "from": "ge",
+      "to": "or",
+      "type": "drive"
+    },
+    {
+      "from": "or",
+      "to": "tr",
+      "type": "drive"
+    },
+    {
+      "from": "tr",
+      "to": "at",
+      "type": "drive"
+    },
+    {
+      "from": "at",
+      "to": "ks",
+      "type": "drive"
+    },
+    {
+      "from": "ks",
+      "to": "re",
+      "type": "fly"
+    },
+    {
+      "from": "re",
+      "to": "rb",
+      "type": "drive"
+    },
+    {
+      "from": "re",
+      "to": "hn",
+      "type": "drive"
+    },
+    {
+      "from": "hn",
+      "to": "sv",
+      "type": "drive"
+    },
+    {
+      "from": "sv",
+      "to": "os",
+      "type": "fly"
+    }
+  ]
+}

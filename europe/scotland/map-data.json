@@ -1,0 +1,220 @@
+{
+  "plan_id": "scotland",
+  "name": "苏格兰",
+  "color": "#b8c5d6",
+  "center": [
+    57,
+    -4.5
+  ],
+  "zoom": 6,
+  "points": [
+    {
+      "id": "ed",
+      "name": "爱丁堡",
+      "lat": 55.9533,
+      "lng": -3.1883,
+      "img": "edinburgh_castle.jpg",
+      "desc": "北方雅典，爱丁堡城堡矗立火山岩上，皇家英里大道贯穿千年石城。",
+      "tags": [
+        "城市",
+        "历史"
+      ],
+      "docAnchor": "d1"
+    },
+    {
+      "id": "et",
+      "name": "爱丁堡老城/皇家英里",
+      "aliases": [
+        "爱丁堡老城",
+        "皇家英里"
+      ],
+      "lat": 55.95,
+      "lng": -3.19,
+      "img": "edinburgh_old_town.jpg",
+      "desc": "蜿蜒的石板街道与高耸石屋，风笛低回与威士忌体验中心的香气弥漫。",
+      "tags": [
+        "老城",
+        "威士忌"
+      ],
+      "docAnchor": "d2"
+    },
+    {
+      "id": "ch",
+      "name": "卡尔顿山",
+      "lat": 55.9547,
+      "lng": -3.1825,
+      "img": "calton_hill_sunset.jpg",
+      "desc": "俯瞰爱丁堡新城与福斯湾的最佳观景台，夏季日落可拉长到21:30以后。",
+      "tags": [
+        "观景",
+        "日落"
+      ],
+      "docAnchor": "d2"
+    },
+    {
+      "id": "sc",
+      "name": "斯特灵城堡",
+      "lat": 56.1239,
+      "lng": -3.9474,
+      "img": "stirling_castle.jpg",
+      "desc": "苏格兰的咽喉，王室摇篮，从城墙远眺华莱士纪念碑与中部平原。",
+      "tags": [
+        "城堡",
+        "历史"
+      ],
+      "docAnchor": "d3"
+    },
+    {
+      "id": "gc",
+      "name": "格伦科峡谷",
+      "lat": 56.6826,
+      "lng": -5.1023,
+      "img": "glencoe_three_sisters.jpg",
+      "desc": "苏格兰高地的代名词，三姐妹山与格伦科大屠杀的悲怆史诗交织的自驾圣地。",
+      "tags": [
+        "峡谷",
+        "自驾"
+      ],
+      "docAnchor": "d4"
+    },
+    {
+      "id": "os",
+      "name": "老人峰",
+      "lat": 57.5075,
+      "lng": -6.1827,
+      "img": "old_man_of_storr.jpg",
+      "desc": "斯凯岛排名第一的徒步路线，巨型玄武岩柱在晨雾中如同巨人的石化身影。",
+      "tags": [
+        "徒步",
+        "奇峰"
+      ],
+      "docAnchor": "d5"
+    },
+    {
+      "id": "kr",
+      "name": "裙岩悬崖",
+      "lat": 57.6114,
+      "lng": -6.1723,
+      "img": "kilt_rock.jpg",
+      "desc": "高达55米的玄武岩悬崖，岩柱如苏格兰格裙褶皱，Mealt瀑布直接坠入大海。",
+      "tags": [
+        "悬崖",
+        "瀑布"
+      ],
+      "docAnchor": "d5"
+    },
+    {
+      "id": "np",
+      "name": "内斯特角灯塔",
+      "lat": 57.4233,
+      "lng": -6.7833,
+      "img": "neist_point_lighthouse.jpg",
+      "desc": "苏格兰最西端的地标，被《国家地理》评为全球最美灯塔之一，海蚀悬崖壮观。",
+      "tags": [
+        "灯塔",
+        "海岸"
+      ],
+      "docAnchor": "d6"
+    },
+    {
+      "id": "uc",
+      "name": "尼斯湖/厄克特城堡",
+      "aliases": [
+        "尼斯湖",
+        "厄克特城堡"
+      ],
+      "lat": 57.324,
+      "lng": -4.439,
+      "img": "urquhart_castle.jpg",
+      "desc": "尼斯湖畔出镜率最高的城堡遗址，断壁残垣与深绿色湖水演绎水怪传说。",
+      "tags": [
+        "湖泊",
+        "城堡"
+      ],
+      "docAnchor": "d7"
+    },
+    {
+      "id": "n5",
+      "name": "NC500 公路",
+      "lat": 58.2,
+      "lng": -5.0,
+      "img": "nc500_coastal_road.jpg",
+      "desc": "苏格兰的66号公路，蜿蜒于北海岸的悬崖与白沙滩之间的高地自驾巅峰。",
+      "tags": [
+        "自驾",
+        "海岸"
+      ],
+      "docAnchor": "d8"
+    },
+    {
+      "id": "pt",
+      "name": "皮特洛赫里",
+      "lat": 56.7045,
+      "lng": -3.7297,
+      "img": "pitlochry_town.jpg",
+      "desc": "维多利亚风格的高地小镇，鲑鱼阶梯与威士忌商店点缀的归途中转站。",
+      "tags": [
+        "小镇",
+        "维多利亚"
+      ],
+      "docAnchor": "d8"
+    }
+  ],
+  "routes": [
+    {
+      "from": "ed",
+      "to": "et",
+      "type": "drive"
+    },
+    {
+      "from": "et",
+      "to": "ch",
+      "type": "drive"
+    },
+    {
+      "from": "ch",
+      "to": "sc",
+      "type": "drive"
+    },
+    {
+      "from": "sc",
+      "to": "gc",
+      "type": "drive"
+    },
+    {
+      "from": "gc",
+      "to": "os",
+      "type": "drive"
+    },
+    {
+      "from": "os",
+      "to": "kr",
+      "type": "drive"
+    },
+    {
+      "from": "kr",
+      "to": "np",
+      "type": "drive"
+    },
+    {
+      "from": "np",
+      "to": "uc",
+      "type": "drive"
+    },
+    {
+      "from": "uc",
+      "to": "n5",
+      "type": "drive"
+    },
+    {
+      "from": "n5",
+      "to": "pt",
+      "type": "drive"
+    },
+    {
+      "from": "pt",
+      "to": "ed",
+      "type": "drive"
+    }
+  ]
+}

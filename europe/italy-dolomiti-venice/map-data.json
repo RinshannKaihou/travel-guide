@@ -1,0 +1,193 @@
+{
+  "plan_id": "italy-dolomiti-venice",
+  "name": "意大利多洛米蒂+威尼斯",
+  "color": "#f4a261",
+  "center": [
+    46.5,
+    12.5
+  ],
+  "zoom": 6,
+  "points": [
+    {
+      "id": "ve",
+      "name": "威尼斯",
+      "lat": 45.4408,
+      "lng": 12.3155,
+      "img": "venice_grand_canal.jpg",
+      "desc": "水上之城，大运河日落与贡多拉穿梭的巴洛克宫殿。",
+      "tags": [
+        "城市",
+        "运河"
+      ],
+      "docAnchor": "d1"
+    },
+    {
+      "id": "bu",
+      "name": "布拉诺岛/彩色岛",
+      "aliases": [
+        "布拉诺岛",
+        "彩色岛"
+      ],
+      "lat": 45.4853,
+      "lng": 12.4166,
+      "img": "burano_colorful_houses.jpg",
+      "desc": "彩虹色渔民小屋错落运河两岸，是威尼斯最上镜的角落。",
+      "tags": [
+        "渔村",
+        "色彩"
+      ],
+      "docAnchor": "d2"
+    },
+    {
+      "id": "vr",
+      "name": "维罗纳",
+      "lat": 45.4384,
+      "lng": 10.9916,
+      "img": "verona_arena.jpg",
+      "desc": "爱之城，古罗马圆形剧场与朱丽叶阳台的浪漫传说。",
+      "tags": [
+        "城市",
+        "罗马"
+      ],
+      "docAnchor": "d3"
+    },
+    {
+      "id": "co",
+      "name": "科尔蒂纳丹佩佐",
+      "lat": 46.5383,
+      "lng": 12.135,
+      "img": "cortina_d_ampezzo.jpg",
+      "desc": "多洛米蒂的门户小镇，高山滑雪圣地与奢华度假大本营。",
+      "tags": [
+        "小镇",
+        "滑雪"
+      ],
+      "docAnchor": "d3"
+    },
+    {
+      "id": "tc",
+      "name": "三峰山",
+      "lat": 46.6218,
+      "lng": 12.3058,
+      "img": "tre_cime.jpg",
+      "desc": "多洛米蒂最具标志性的白云岩峰群，日出时呈现玫瑰金色的阿尔卑斯之光。",
+      "tags": [
+        "徒步",
+        "山峰"
+      ],
+      "docAnchor": "d4"
+    },
+    {
+      "id": "lb",
+      "name": "布莱斯湖",
+      "lat": 46.6947,
+      "lng": 12.085,
+      "img": "lago_braies.jpg",
+      "desc": "阿尔卑斯的明信片，祖母绿色湖水与木质划艇映衬着垂直山峰。",
+      "tags": [
+        "湖泊",
+        "划船"
+      ],
+      "docAnchor": "d5"
+    },
+    {
+      "id": "vf",
+      "name": "富纳斯山谷",
+      "lat": 46.64,
+      "lng": 11.68,
+      "img": "val_di_funes.jpg",
+      "desc": "富纳斯山谷的标志性田园画面，小教堂与锯齿状白云岩峰构成童话剪影。",
+      "tags": [
+        "山谷",
+        "教堂"
+      ],
+      "docAnchor": "d5"
+    },
+    {
+      "id": "pg",
+      "name": "Passo Giau",
+      "lat": 46.4833,
+      "lng": 12.05,
+      "img": "passo_giau.jpg",
+      "desc": "欧洲最美高山公路之一，之字形发卡弯穿梭于白云岩巨峰之间。",
+      "tags": [
+        "自驾",
+        "山口"
+      ],
+      "docAnchor": "d6"
+    },
+    {
+      "id": "sr",
+      "name": "西尔苗内",
+      "lat": 45.4925,
+      "lng": 10.6081,
+      "img": "sirmione_garda.jpg",
+      "desc": "加尔达湖畔的温泉小镇，水上城堡与柠檬香气交织。",
+      "tags": [
+        "湖泊",
+        "温泉"
+      ],
+      "docAnchor": "d7"
+    },
+    {
+      "id": "mi",
+      "name": "米兰",
+      "lat": 45.4642,
+      "lng": 9.19,
+      "img": "milan_duomo.jpg",
+      "desc": "时尚之都，米兰大教堂的金色圣母像与埃马努埃莱长廊。",
+      "tags": [
+        "城市",
+        "购物"
+      ],
+      "docAnchor": "d8"
+    }
+  ],
+  "routes": [
+    {
+      "from": "ve",
+      "to": "bu",
+      "type": "ferry"
+    },
+    {
+      "from": "ve",
+      "to": "vr",
+      "type": "train"
+    },
+    {
+      "from": "vr",
+      "to": "co",
+      "type": "drive"
+    },
+    {
+      "from": "co",
+      "to": "tc",
+      "type": "drive"
+    },
+    {
+      "from": "tc",
+      "to": "lb",
+      "type": "drive"
+    },
+    {
+      "from": "lb",
+      "to": "vf",
+      "type": "drive"
+    },
+    {
+      "from": "vf",
+      "to": "pg",
+      "type": "drive"
+    },
+    {
+      "from": "pg",
+      "to": "sr",
+      "type": "drive"
+    },
+    {
+      "from": "sr",
+      "to": "mi",
+      "type": "drive"
+    }
+  ]
+}

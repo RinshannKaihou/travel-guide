@@ -1,0 +1,192 @@
+{
+  "plan_id": "georgia",
+  "name": "格鲁吉亚",
+  "color": "#e9c46a",
+  "center": [
+    42.3,
+    43.5
+  ],
+  "zoom": 7,
+  "points": [
+    {
+      "id": "tb",
+      "name": "第比利斯",
+      "lat": 41.7151,
+      "lng": 44.8271,
+      "img": "tbilisi_old_town.jpg",
+      "desc": "高加索门户，老城迷宫般的巷道、木质阳台与葡萄酒吧交织。",
+      "tags": [
+        "城市",
+        "老城"
+      ],
+      "docAnchor": "d1"
+    },
+    {
+      "id": "pb",
+      "name": "和平桥/硫磺浴区",
+      "aliases": [
+        "和平桥",
+        "硫磺浴区"
+      ],
+      "lat": 41.6914,
+      "lng": 44.8075,
+      "img": "peace_bridge.jpg",
+      "desc": "连接老城与Rike公园的玻璃步行桥，与硫磺浴区共同构成第比利斯地标。",
+      "tags": [
+        "地标",
+        "温泉"
+      ],
+      "docAnchor": "d2"
+    },
+    {
+      "id": "db",
+      "name": "干桥跳蚤市场",
+      "lat": 41.693,
+      "lng": 44.8,
+      "img": "dry_bridge_market.jpg",
+      "desc": "外高加索最大的露天旧货市场，苏联徽章、老相机与古董匕首的寻宝之地。",
+      "tags": [
+        "市集",
+        "复古"
+      ],
+      "docAnchor": "d2"
+    },
+    {
+      "id": "sg",
+      "name": "西格纳吉",
+      "lat": 41.62,
+      "lng": 45.92,
+      "img": "sighnaghi_walls.jpg",
+      "desc": "高加索的托斯卡纳，红酒小镇，城墙俯瞰阿拉扎尼山谷与葡萄园。",
+      "tags": [
+        "小镇",
+        "红酒"
+      ],
+      "docAnchor": "d3"
+    },
+    {
+      "id": "an",
+      "name": "Ananuri 要塞",
+      "lat": 42.1647,
+      "lng": 44.7026,
+      "img": "ananuri_fortress.jpg",
+      "desc": "格鲁吉亚上镜率最高的中世纪要塞，两座教堂与钟楼矗立在水库半岛上。",
+      "tags": [
+        "城堡",
+        "湖泊"
+      ],
+      "docAnchor": "d4"
+    },
+    {
+      "id": "gm",
+      "name": "俄格友谊纪念碑",
+      "lat": 42.44,
+      "lng": 44.45,
+      "img": "gudauri_monument.jpg",
+      "desc": "俄格友谊纪念碑，巨大的环形瓷砖壁画俯瞰Devil's Valley的V型雪山峡谷。",
+      "tags": [
+        "地标",
+        "峡谷"
+      ],
+      "docAnchor": "d4"
+    },
+    {
+      "id": "gc",
+      "name": "圣三一教堂/卡兹别克",
+      "aliases": [
+        "圣三一教堂",
+        "卡兹别克"
+      ],
+      "lat": 42.6621,
+      "lng": 44.6204,
+      "img": "gergeti_church.jpg",
+      "desc": "离天堂最近的教堂，14世纪圣三一教堂孤独地坐落在海拔2170米的山脊上，背后就是5047米的卡兹别克山。",
+      "tags": [
+        "教堂",
+        "雪山"
+      ],
+      "docAnchor": "d5"
+    },
+    {
+      "id": "ku",
+      "name": "库塔伊西",
+      "lat": 42.2662,
+      "lng": 42.718,
+      "img": "bagrati_cathedral.jpg",
+      "desc": "格鲁吉亚第二大城市，11世纪巴格拉特大教堂与拜占庭壁画诉说着黄金时代。",
+      "tags": [
+        "城市",
+        "教堂"
+      ],
+      "docAnchor": "d6"
+    },
+    {
+      "id": "me",
+      "name": "梅斯蒂亚",
+      "lat": 43.0446,
+      "lng": 42.6872,
+      "img": "mestia_towers.jpg",
+      "desc": "斯瓦涅季的门户，中世纪防御碉楼林立，雪山草甸环绕的高加索秘境。",
+      "tags": [
+        "小镇",
+        "碉楼"
+      ],
+      "docAnchor": "d7"
+    },
+    {
+      "id": "uu",
+      "name": "乌树故里",
+      "lat": 42.9144,
+      "lng": 42.839,
+      "img": "ushguli_village.jpg",
+      "desc": "欧洲海拔最高的永久居住村落，200多座中世纪碉楼与什哈拉雪山构成中世纪的画面。",
+      "tags": [
+        "村落",
+        "雪山"
+      ],
+      "docAnchor": "d8"
+    }
+  ],
+  "routes": [
+    {
+      "from": "tb",
+      "to": "sg",
+      "type": "drive"
+    },
+    {
+      "from": "sg",
+      "to": "an",
+      "type": "drive"
+    },
+    {
+      "from": "an",
+      "to": "gm",
+      "type": "drive"
+    },
+    {
+      "from": "gm",
+      "to": "gc",
+      "type": "drive"
+    },
+    {
+      "from": "gc",
+      "to": "ku",
+      "type": "drive"
+    },
+    {
+      "from": "ku",
+      "to": "me",
+      "type": "drive"
+    },
+    {
+      "from": "me",
+      "to": "uu",
+      "type": "drive"
+    },
+    {
+      "from": "uu",
+      "to": "tb",
+      "type": "drive"
+    }
+  ]
+}

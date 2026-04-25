@@ -1,0 +1,250 @@
+{
+  "plan_id": "japan-hokkaido",
+  "name": "北海道",
+  "color": "#a8dadc",
+  "center": [
+    43.5,
+    142.5
+  ],
+  "zoom": 7,
+  "points": [
+    {
+      "id": "sa",
+      "name": "札幌",
+      "lat": 43.0618,
+      "lng": 141.3545,
+      "img": "sapporo_odori_park.jpg",
+      "desc": "北海道首府，大通公园的夏日祭与札幌拉面横丁的美食天堂。",
+      "tags": [
+        "城市",
+        "美食"
+      ],
+      "docAnchor": "d1"
+    },
+    {
+      "id": "ot",
+      "name": "小樽",
+      "lat": 43.1907,
+      "lng": 140.9946,
+      "img": "otaru_canal.jpg",
+      "desc": "情书与寿司之町，运河石造仓库群与北一硝子馆的浪漫玻璃工艺。",
+      "tags": [
+        "运河",
+        "玻璃"
+      ],
+      "docAnchor": "d2"
+    },
+    {
+      "id": "ft",
+      "name": "富田农场/富良野",
+      "aliases": [
+        "富田农场",
+        "富良野"
+      ],
+      "lat": 43.4197,
+      "lng": 142.4252,
+      "img": "farm_tomita_lavender.jpg",
+      "desc": "北海道最负盛名的薰衣草花田，紫色花毯铺到十胜岳山脚下的梦幻农场。",
+      "tags": [
+        "花田",
+        "薰衣草"
+      ],
+      "docAnchor": "d3"
+    },
+    {
+      "id": "nt",
+      "name": "精灵露台/富良野",
+      "aliases": [
+        "精灵露台",
+        "富良野"
+      ],
+      "lat": 43.3483,
+      "lng": 142.38,
+      "img": "ningle_terrace.jpg",
+      "desc": "富良野森林中的手工工艺品村落，傍晚暖黄灯光点亮童话木屋。",
+      "tags": [
+        "森林",
+        "手工"
+      ],
+      "docAnchor": "d3"
+    },
+    {
+      "id": "so",
+      "name": "四季彩之丘/美瑛",
+      "aliases": [
+        "四季彩之丘",
+        "美瑛"
+      ],
+      "lat": 43.5311,
+      "lng": 142.4436,
+      "img": "shikisai_no_oka.jpg",
+      "desc": "美瑛的展望花田，丘陵地形上数十种花卉拼成巨大的彩色调色板。",
+      "tags": [
+        "花田",
+        "丘陵"
+      ],
+      "docAnchor": "d4"
+    },
+    {
+      "id": "bp",
+      "name": "白金青池/美瑛",
+      "aliases": [
+        "白金青池",
+        "美瑛"
+      ],
+      "lat": 43.4933,
+      "lng": 142.6061,
+      "img": "blue_pond.jpg",
+      "desc": "白金青池的钴蓝色水面与白桦枯木，北海道最著名的幻境之一。",
+      "tags": [
+        "湖泊",
+        "幻境"
+      ],
+      "docAnchor": "d4"
+    },
+    {
+      "id": "kr",
+      "name": "层云峡/黑岳",
+      "aliases": [
+        "层云峡",
+        "黑岳"
+      ],
+      "lat": 43.7175,
+      "lng": 142.9478,
+      "img": "kurodake_ropeway.jpg",
+      "desc": "层云峡黑岳缆车直达海拔1520米，高山植物园与大雪山国立公园的温泉乡。",
+      "tags": [
+        "峡谷",
+        "温泉"
+      ],
+      "docAnchor": "d5"
+    },
+    {
+      "id": "ma",
+      "name": "摩周湖",
+      "lat": 43.5728,
+      "lng": 144.5286,
+      "img": "mashu_lake.jpg",
+      "desc": "日本透明度最高的火山口湖，碧蓝湖水被200米高的火山口壁环绕的神秘之湖。",
+      "tags": [
+        "湖泊",
+        "火山"
+      ],
+      "docAnchor": "d5"
+    },
+    {
+      "id": "sh",
+      "name": "知床五湖",
+      "lat": 44.0933,
+      "lng": 145.1633,
+      "img": "shiretoko_goko.jpg",
+      "desc": "知床五湖木栈道穿越原始森林与湿地，北海道唯一世界自然遗产的徒步精华。",
+      "tags": [
+        "徒步",
+        "自然"
+      ],
+      "docAnchor": "d6"
+    },
+    {
+      "id": "sp",
+      "name": "知床峠",
+      "lat": 44.0683,
+      "lng": 145.0917,
+      "img": "shiretoko_pass.jpg",
+      "desc": "知床峠俯瞰鄂霍次克海与知床连峰，夏季残雪与虾夷鹿出没的自驾高点。",
+      "tags": [
+        "自驾",
+        "海景"
+      ],
+      "docAnchor": "d6"
+    },
+    {
+      "id": "ob",
+      "name": "带广",
+      "lat": 42.9236,
+      "lng": 143.1961,
+      "img": "obihiro_wagyu.jpg",
+      "desc": "十胜和牛的故乡，带广炭火烤肉入口即化的奶香与甜味令人难忘。",
+      "tags": [
+        "城市",
+        "和牛"
+      ],
+      "docAnchor": "d7"
+    },
+    {
+      "id": "wp",
+      "name": "白色恋人公园",
+      "lat": 43.0849,
+      "lng": 141.318,
+      "img": "shiroi_koibito_park.jpg",
+      "desc": "白色恋人主题公园，白色欧式城堡与玫瑰花园中的甜蜜工坊体验。",
+      "tags": [
+        "公园",
+        "甜品"
+      ],
+      "docAnchor": "d8"
+    }
+  ],
+  "routes": [
+    {
+      "from": "sa",
+      "to": "ot",
+      "type": "drive"
+    },
+    {
+      "from": "ot",
+      "to": "ft",
+      "type": "drive"
+    },
+    {
+      "from": "ft",
+      "to": "nt",
+      "type": "drive"
+    },
+    {
+      "from": "nt",
+      "to": "so",
+      "type": "drive"
+    },
+    {
+      "from": "so",
+      "to": "bp",
+      "type": "drive"
+    },
+    {
+      "from": "bp",
+      "to": "kr",
+      "type": "drive"
+    },
+    {
+      "from": "kr",
+      "to": "ma",
+      "type": "drive"
+    },
+    {
+      "from": "ma",
+      "to": "sh",
+      "type": "drive"
+    },
+    {
+      "from": "sh",
+      "to": "sp",
+      "type": "drive"
+    },
+    {
+      "from": "sp",
+      "to": "ob",
+      "type": "drive"
+    },
+    {
+      "from": "ob",
+      "to": "wp",
+      "type": "drive"
+    },
+    {
+      "from": "wp",
+      "to": "sa",
+      "type": "drive"
+    }
+  ]
+}

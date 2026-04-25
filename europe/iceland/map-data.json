@@ -1,0 +1,301 @@
+{
+  "plan_id": "iceland",
+  "name": "冰岛环岛",
+  "color": "#a8e6cf",
+  "center": [
+    64.9,
+    -18
+  ],
+  "zoom": 6,
+  "points": [
+    {
+      "id": "rv",
+      "name": "雷克雅未克",
+      "lat": 64.1466,
+      "lng": -21.9426,
+      "img": "blue_lagoon.jpg",
+      "desc": "世界尽头的首都，蓝湖温泉与午夜阳光。",
+      "tags": [
+        "城市",
+        "温泉"
+      ],
+      "docAnchor": "d1"
+    },
+    {
+      "id": "ki",
+      "name": "教会山",
+      "lat": 64.9414,
+      "lng": -23.3069,
+      "img": "kirkjufell.jpg",
+      "desc": "《权力的游戏》取景地，冰岛缩影的标志。",
+      "tags": [
+        "摄影",
+        "瀑布"
+      ],
+      "docAnchor": "d2"
+    },
+    {
+      "id": "st",
+      "name": "斯蒂基斯霍尔米",
+      "lat": 65.0825,
+      "lng": -22.7296,
+      "img": "stykkisholmur.jpg",
+      "desc": "《白日梦想家》取景地，半岛最大小镇。",
+      "tags": [
+        "小镇"
+      ],
+      "docAnchor": "d2"
+    },
+    {
+      "id": "hv",
+      "name": "犀牛石",
+      "lat": 65.6063,
+      "lng": -20.6353,
+      "img": "hvitserkur.jpg",
+      "desc": "一座像犀牛饮水的玄武岩海蚀柱。",
+      "tags": [
+        "奇观",
+        "海岸"
+      ],
+      "docAnchor": "d3"
+    },
+    {
+      "id": "ak",
+      "name": "阿克雷里",
+      "lat": 65.6826,
+      "lng": -18.0907,
+      "img": "akureyri.jpg",
+      "desc": "北方之都，红绿灯都是爱心的形状。",
+      "tags": [
+        "城市"
+      ],
+      "docAnchor": "d3"
+    },
+    {
+      "id": "de",
+      "name": "黛提瀑布",
+      "lat": 65.8147,
+      "lng": -16.3851,
+      "img": "dettifoss.jpg",
+      "desc": "欧洲水量最大的瀑布，《普罗米修斯》外星取景地。",
+      "tags": [
+        "瀑布",
+        "电影"
+      ],
+      "docAnchor": "d4"
+    },
+    {
+      "id": "my",
+      "name": "米湖地热区",
+      "lat": 65.64,
+      "lng": -16.84,
+      "img": "namafjall.jpg",
+      "desc": "硫磺坑与沸腾泥浆，空气中弥漫着浓烈的火山气息。",
+      "tags": [
+        "地热",
+        "火山"
+      ],
+      "docAnchor": "d4"
+    },
+    {
+      "id": "se",
+      "name": "塞济斯菲厄泽",
+      "lat": 65.2601,
+      "lng": -14.0086,
+      "img": "seydisfjordur.jpg",
+      "desc": "彩虹路与蓝色教堂，冰岛艺术氛围最浓的小镇。",
+      "tags": [
+        "小镇",
+        "艺术"
+      ],
+      "docAnchor": "d5"
+    },
+    {
+      "id": "jo",
+      "name": "杰古沙龙冰河湖",
+      "lat": 64.0784,
+      "lng": -16.2306,
+      "img": "jokulsarlon.jpg",
+      "desc": "巨大的蓝色浮冰漂浮在湖面，可乘船近距离观赏。",
+      "tags": [
+        "冰川",
+        "游船"
+      ],
+      "docAnchor": "d6"
+    },
+    {
+      "id": "db",
+      "name": "钻石沙滩",
+      "lat": 64.0419,
+      "lng": -16.1797,
+      "img": "diamond_beach.jpg",
+      "desc": "冰川碎块散落在黑色沙滩上，在阳光下像钻石闪烁。",
+      "tags": [
+        "沙滩",
+        "摄影"
+      ],
+      "docAnchor": "d6"
+    },
+    {
+      "id": "vi",
+      "name": "维克 / 黑沙滩",
+      "aliases": [
+        "维克",
+        "黑沙滩"
+      ],
+      "lat": 63.4194,
+      "lng": -19.0094,
+      "img": "reynisfjara.jpg",
+      "desc": "黑色火山沙与白色巨浪，海边矗立着巨大的玄武岩柱。",
+      "tags": [
+        "沙滩",
+        "奇观"
+      ],
+      "docAnchor": "d7"
+    },
+    {
+      "id": "sk",
+      "name": "斯科加瀑布",
+      "lat": 63.5321,
+      "lng": -19.5114,
+      "img": "skogafoss.jpg",
+      "desc": "冰岛最壮丽的瀑布之一，晴天时几乎永远有双彩虹。",
+      "tags": [
+        "瀑布",
+        "彩虹"
+      ],
+      "docAnchor": "d7"
+    },
+    {
+      "id": "sl",
+      "name": "塞里雅兰瀑布",
+      "lat": 63.6156,
+      "lng": -19.9933,
+      "img": "seljalandsfoss.jpg",
+      "desc": "可以走到瀑布后方，从水帘内部看世界。",
+      "tags": [
+        "瀑布"
+      ],
+      "docAnchor": "d7"
+    },
+    {
+      "id": "th",
+      "name": "辛格维利尔",
+      "lat": 64.2559,
+      "lng": -21.1295,
+      "img": "thingvellir.jpg",
+      "desc": "欧亚与北美板块裂缝，世界上最古老的民主议会遗址。",
+      "tags": [
+        "徒步",
+        "历史"
+      ],
+      "docAnchor": "d8"
+    },
+    {
+      "id": "gu",
+      "name": "黄金瀑布",
+      "lat": 64.3271,
+      "lng": -20.1199,
+      "img": "gullfoss.jpg",
+      "desc": "阳光照射下水面泛出金色光芒，欧洲最著名的瀑布之一。",
+      "tags": [
+        "瀑布"
+      ],
+      "docAnchor": "d8"
+    },
+    {
+      "id": "gy",
+      "name": "间歇泉",
+      "lat": 64.3104,
+      "lng": -20.3023,
+      "img": "geysir.jpg",
+      "desc": "Strokkur每5-10分钟喷发一次，水柱直冲20-30米高空。",
+      "tags": [
+        "地热"
+      ],
+      "docAnchor": "d8"
+    }
+  ],
+  "routes": [
+    {
+      "from": "rv",
+      "to": "ki",
+      "type": "drive"
+    },
+    {
+      "from": "ki",
+      "to": "st",
+      "type": "drive"
+    },
+    {
+      "from": "st",
+      "to": "hv",
+      "type": "drive"
+    },
+    {
+      "from": "hv",
+      "to": "ak",
+      "type": "drive"
+    },
+    {
+      "from": "ak",
+      "to": "de",
+      "type": "drive"
+    },
+    {
+      "from": "de",
+      "to": "my",
+      "type": "drive"
+    },
+    {
+      "from": "my",
+      "to": "se",
+      "type": "drive"
+    },
+    {
+      "from": "se",
+      "to": "jo",
+      "type": "drive"
+    },
+    {
+      "from": "jo",
+      "to": "db",
+      "type": "drive"
+    },
+    {
+      "from": "db",
+      "to": "vi",
+      "type": "drive"
+    },
+    {
+      "from": "vi",
+      "to": "sk",
+      "type": "drive"
+    },
+    {
+      "from": "sk",
+      "to": "sl",
+      "type": "drive"
+    },
+    {
+      "from": "sl",
+      "to": "th",
+      "type": "drive"
+    },
+    {
+      "from": "th",
+      "to": "gy",
+      "type": "drive"
+    },
+    {
+      "from": "gy",
+      "to": "gu",
+      "type": "drive"
+    },
+    {
+      "from": "gu",
+      "to": "rv",
+      "type": "drive"
+    }
+  ]
+}

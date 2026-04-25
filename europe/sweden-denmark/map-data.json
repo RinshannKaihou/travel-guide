@@ -1,0 +1,234 @@
+{
+  "plan_id": "sweden-denmark",
+  "name": "瑞典+丹麦",
+  "color": "#ffd3b6",
+  "center": [
+    57.5,
+    14
+  ],
+  "zoom": 6,
+  "points": [
+    {
+      "id": "st",
+      "name": "斯德哥尔摩",
+      "lat": 59.3293,
+      "lng": 18.0686,
+      "img": "gamla_stan.jpg",
+      "desc": "北方威尼斯，老城Gamla Stan与地铁艺术长廊。",
+      "tags": [
+        "城市",
+        "艺术"
+      ],
+      "docAnchor": "d1"
+    },
+    {
+      "id": "va",
+      "name": "瓦萨博物馆",
+      "lat": 59.3272,
+      "lng": 18.0914,
+      "img": "vasa_museum.jpg",
+      "desc": "世界上唯一保存完好的17世纪战舰。",
+      "tags": [
+        "博物馆"
+      ],
+      "docAnchor": "d2"
+    },
+    {
+      "id": "me",
+      "name": "地铁艺术巡礼",
+      "lat": 59.331,
+      "lng": 18.059,
+      "img": "stockholm_metro.jpg",
+      "desc": "世界最长画廊，岩洞中的彩虹与地下花园。",
+      "tags": [
+        "艺术"
+      ],
+      "docAnchor": "d2"
+    },
+    {
+      "id": "go",
+      "name": "哥德堡",
+      "lat": 57.7089,
+      "lng": 11.9746,
+      "img": "gothenburg.jpg",
+      "desc": "鱼市教堂与Haga区肉桂卷，西海岸门户。",
+      "tags": [
+        "城市",
+        "美食"
+      ],
+      "docAnchor": "d3"
+    },
+    {
+      "id": "fj",
+      "name": "菲亚巴卡",
+      "lat": 58.5995,
+      "lng": 11.2844,
+      "img": "fjallbacka.jpg",
+      "desc": "瑞典犯罪小说女王的故乡，红顶白墙渔村。",
+      "tags": [
+        "渔村"
+      ],
+      "docAnchor": "d4"
+    },
+    {
+      "id": "gr",
+      "name": "格雷贝斯塔",
+      "lat": 58.7016,
+      "lng": 11.2583,
+      "img": "grebbestad.jpg",
+      "desc": "瑞典生蚝之都，夏季限定出海捕捞之旅。",
+      "tags": [
+        "海鲜",
+        "体验"
+      ],
+      "docAnchor": "d4"
+    },
+    {
+      "id": "sm",
+      "name": "斯莫根",
+      "lat": 58.3567,
+      "lng": 11.2244,
+      "img": "smogen.jpg",
+      "desc": "西海岸最著名渔村，悬崖栈道与免费海边桑拿。",
+      "tags": [
+        "渔村",
+        "悬崖"
+      ],
+      "docAnchor": "d4"
+    },
+    {
+      "id": "he",
+      "name": "赫尔辛堡",
+      "lat": 56.0465,
+      "lng": 12.6945,
+      "img": "helsingborg.jpg",
+      "desc": "对岸就是丹麦克伦堡，索菲罗城堡花园被誉为北欧最美。",
+      "tags": [
+        "花园"
+      ],
+      "docAnchor": "d5"
+    },
+    {
+      "id": "ma",
+      "name": "马尔默",
+      "lat": 55.605,
+      "lng": 13.0038,
+      "img": "oresund_bridge.jpg",
+      "desc": "旋转大楼与厄勒海峡大桥，35分钟火车直达哥本哈根。",
+      "tags": [
+        "城市",
+        "建筑"
+      ],
+      "docAnchor": "d5"
+    },
+    {
+      "id": "cp",
+      "name": "哥本哈根",
+      "lat": 55.6761,
+      "lng": 12.5683,
+      "img": "nyhavn.jpg",
+      "desc": "新港彩色房子、趣伏里公园与全球最密集的米其林餐厅。",
+      "tags": [
+        "城市",
+        "美食",
+        "童话"
+      ],
+      "docAnchor": "d6"
+    },
+    {
+      "id": "kr",
+      "name": "克伦堡",
+      "lat": 56.039,
+      "lng": 12.6218,
+      "img": "kronborg.jpg",
+      "desc": "哈姆雷特堡，地下隧道传说与海边换岗仪式。",
+      "tags": [
+        "城堡"
+      ],
+      "docAnchor": "d8"
+    },
+    {
+      "id": "lo",
+      "name": "路易斯安那美术馆",
+      "lat": 55.9692,
+      "lng": 12.5411,
+      "img": "louisiana.jpg",
+      "desc": "海边现代美术馆，咖啡厅拥有全馆最佳海景位。",
+      "tags": [
+        "艺术",
+        "海景"
+      ],
+      "docAnchor": "d8"
+    },
+    {
+      "id": "tv",
+      "name": "趣伏里公园",
+      "lat": 55.6737,
+      "lng": 12.5681,
+      "img": "tivoli.jpg",
+      "desc": "世界上最古老的游乐园之一，夏季夜晚十万盏灯。",
+      "tags": [
+        "乐园",
+        "夜景"
+      ],
+      "docAnchor": "d7"
+    }
+  ],
+  "routes": [
+    {
+      "from": "st",
+      "to": "go",
+      "type": "train"
+    },
+    {
+      "from": "go",
+      "to": "fj",
+      "type": "drive"
+    },
+    {
+      "from": "fj",
+      "to": "gr",
+      "type": "drive"
+    },
+    {
+      "from": "gr",
+      "to": "sm",
+      "type": "drive"
+    },
+    {
+      "from": "sm",
+      "to": "he",
+      "type": "drive"
+    },
+    {
+      "from": "he",
+      "to": "ma",
+      "type": "drive"
+    },
+    {
+      "from": "ma",
+      "to": "cp",
+      "type": "train"
+    },
+    {
+      "from": "cp",
+      "to": "kr",
+      "type": "drive"
+    },
+    {
+      "from": "kr",
+      "to": "lo",
+      "type": "drive"
+    },
+    {
+      "from": "lo",
+      "to": "cp",
+      "type": "drive"
+    },
+    {
+      "from": "cp",
+      "to": "tv",
+      "type": "drive"
+    }
+  ]
+}

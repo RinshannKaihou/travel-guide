@@ -1,0 +1,240 @@
+{
+  "plan_id": "norway-denmark",
+  "name": "丹麦+挪威",
+  "color": "#e8b4b8",
+  "center": [
+    58,
+    8
+  ],
+  "zoom": 5,
+  "points": [
+    {
+      "id": "cp",
+      "name": "哥本哈根",
+      "lat": 55.6761,
+      "lng": 12.5683,
+      "img": "nyhavn.jpg",
+      "desc": "童话首都，新港彩色房子与米其林密度的全球之最。",
+      "tags": [
+        "城市",
+        "美食",
+        "童话"
+      ],
+      "docAnchor": "d1"
+    },
+    {
+      "id": "kr",
+      "name": "克伦堡",
+      "lat": 56.039,
+      "lng": 12.6218,
+      "img": "kronborg.jpg",
+      "desc": "莎士比亚《哈姆雷特》取景地，厄勒海峡最窄处的海边城堡。",
+      "tags": [
+        "城堡",
+        "戏剧"
+      ],
+      "docAnchor": "d3"
+    },
+    {
+      "id": "lo",
+      "name": "路易斯安那美术馆",
+      "lat": 55.9692,
+      "lng": 12.5411,
+      "img": "louisiana.jpg",
+      "desc": "全球最美的海边现代美术馆，雕塑花园直面海峡。",
+      "tags": [
+        "艺术",
+        "海景"
+      ],
+      "docAnchor": "d3"
+    },
+    {
+      "id": "od",
+      "name": "欧登塞 / 伊埃斯科城堡",
+      "aliases": [
+        "欧登塞",
+        "伊埃斯科城堡"
+      ],
+      "lat": 55.2736,
+      "lng": 10.4028,
+      "img": "egeskov.jpg",
+      "desc": "安徒生故乡与欧洲最美水边城堡，迷宫花园极浪漫。",
+      "tags": [
+        "童话",
+        "城堡"
+      ],
+      "docAnchor": "d4"
+    },
+    {
+      "id": "be",
+      "name": "卑尔根",
+      "lat": 60.3913,
+      "lng": 5.3221,
+      "img": "bryggen.jpg",
+      "desc": "峡湾之门，布吕根彩色木屋与弗洛伊恩山缆车。",
+      "tags": [
+        "城市",
+        "海鲜"
+      ],
+      "docAnchor": "d5"
+    },
+    {
+      "id": "fl",
+      "name": "弗洛姆 / 高山火车",
+      "aliases": [
+        "弗洛姆",
+        "高山火车"
+      ],
+      "lat": 60.8633,
+      "lng": 7.114,
+      "img": "flamsbana.jpg",
+      "desc": "世界最陡铁路，20公里海拔骤降866米。",
+      "tags": [
+        "火车",
+        "瀑布"
+      ],
+      "docAnchor": "d5"
+    },
+    {
+      "id": "au",
+      "name": "艾于兰峡湾",
+      "lat": 60.9078,
+      "lng": 7.1896,
+      "img": "aurlandsfjorden.jpg",
+      "desc": "纳柔依峡湾世界遗产段，住在落地窗正对峡湾的民宿。",
+      "tags": [
+        "峡湾",
+        "民宿"
+      ],
+      "docAnchor": "d6"
+    },
+    {
+      "id": "ge",
+      "name": "盖朗厄尔峡湾",
+      "lat": 62.1048,
+      "lng": 7.0758,
+      "img": "geirangerfjord.jpg",
+      "desc": "七姐妹瀑布与老鹰之路11个发卡弯俯瞰深蓝峡湾。",
+      "tags": [
+        "峡湾",
+        "自驾"
+      ],
+      "docAnchor": "d6"
+    },
+    {
+      "id": "tr",
+      "name": "精灵之路",
+      "aliases": [
+        "Trollstigen"
+      ],
+      "lat": 62.45,
+      "lng": 7.68,
+      "img": "trollstigen.jpg",
+      "desc": "11个发卡弯盘于山谷，悬空观景台凌驾瀑布之上。",
+      "tags": [
+        "自驾",
+        "瀑布"
+      ],
+      "docAnchor": "d7"
+    },
+    {
+      "id": "at",
+      "name": "大西洋公路",
+      "lat": 63.0086,
+      "lng": 7.3581,
+      "img": "atlantic_road.jpg",
+      "desc": "世界最佳公路旅行之一，Storseisundet桥仿佛断入大海。",
+      "tags": [
+        "自驾",
+        "海景"
+      ],
+      "docAnchor": "d7"
+    },
+    {
+      "id": "ks",
+      "name": "克里斯蒂安松",
+      "lat": 63.1118,
+      "lng": 7.728,
+      "img": "kristiansund.jpg",
+      "desc": "安静的海滨小城，品尝盐渍鳕鱼，准备返程。",
+      "tags": [
+        "渔村"
+      ],
+      "docAnchor": "d7"
+    },
+    {
+      "id": "os",
+      "name": "奥斯陆",
+      "lat": 59.9139,
+      "lng": 10.7522,
+      "img": "oslo.jpg",
+      "desc": "首都返程中转，歌剧院与阿克尔码头夜景。",
+      "tags": [
+        "城市"
+      ],
+      "docAnchor": "d8"
+    }
+  ],
+  "routes": [
+    {
+      "from": "cp",
+      "to": "kr",
+      "type": "drive"
+    },
+    {
+      "from": "kr",
+      "to": "lo",
+      "type": "drive"
+    },
+    {
+      "from": "lo",
+      "to": "cp",
+      "type": "drive"
+    },
+    {
+      "from": "cp",
+      "to": "od",
+      "type": "drive"
+    },
+    {
+      "from": "od",
+      "to": "be",
+      "type": "fly"
+    },
+    {
+      "from": "be",
+      "to": "fl",
+      "type": "train"
+    },
+    {
+      "from": "fl",
+      "to": "au",
+      "type": "ferry"
+    },
+    {
+      "from": "au",
+      "to": "ge",
+      "type": "drive"
+    },
+    {
+      "from": "ge",
+      "to": "tr",
+      "type": "drive"
+    },
+    {
+      "from": "tr",
+      "to": "at",
+      "type": "drive"
+    },
+    {
+      "from": "at",
+      "to": "ks",
+      "type": "drive"
+    },
+    {
+      "from": "ks",
+      "to": "os",
+      "type": "fly"
+    }
+  ]
+}

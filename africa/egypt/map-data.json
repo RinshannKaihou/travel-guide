@@ -1,0 +1,176 @@
+{
+  "plan_id": "egypt",
+  "name": "埃及尼罗河与红海",
+  "color": "#d4a373",
+  "center": [
+    26.5,
+    31.5
+  ],
+  "zoom": 6,
+  "points": [
+    {
+      "id": "ca",
+      "name": "开罗",
+      "lat": 30.0444,
+      "lng": 31.2357,
+      "img": "cairo_nile_night.jpg",
+      "desc": "尼罗河畔的千年都会，金字塔与清真寺共享同一座天际线。",
+      "tags": [
+        "城市",
+        "历史",
+        "博物馆"
+      ],
+      "docAnchor": "d1"
+    },
+    {
+      "id": "gz",
+      "name": "吉萨金字塔群",
+      "aliases": [
+        "吉萨",
+        "金字塔"
+      ],
+      "lat": 29.9792,
+      "lng": 31.1342,
+      "img": "giza_pyramids.jpg",
+      "desc": "胡夫、卡夫拉与孟卡拉三座金字塔，人类最古老的世界奇迹。",
+      "tags": [
+        "金字塔",
+        "奇迹",
+        "沙漠"
+      ],
+      "docAnchor": "d2"
+    },
+    {
+      "id": "as",
+      "name": "阿斯旺",
+      "lat": 24.0889,
+      "lng": 32.8998,
+      "img": "philae_temple.jpg",
+      "desc": "尼罗河最南端的城市，菲莱神庙与老卡塔拉特酒店隔河相望。",
+      "tags": [
+        "城市",
+        "神庙",
+        "河流"
+      ],
+      "docAnchor": "d3"
+    },
+    {
+      "id": "ab",
+      "name": "阿布辛贝神庙",
+      "aliases": [
+        "阿布辛贝"
+      ],
+      "lat": 22.3372,
+      "lng": 31.6258,
+      "img": "abu_simbel.jpg",
+      "desc": "拉美西斯二世的山岩神庙，联合国教科文组织的搬迁奇迹。",
+      "tags": [
+        "神庙",
+        "奇迹",
+        "沙漠"
+      ],
+      "docAnchor": "d4"
+    },
+    {
+      "id": "lu",
+      "name": "卢克索",
+      "lat": 25.6872,
+      "lng": 32.6396,
+      "img": "karnak_hypostyle.jpg",
+      "desc": "世界上最大的露天博物馆，卡尔纳克与帝王谷的所在地。",
+      "tags": [
+        "城市",
+        "神庙",
+        "古墓"
+      ],
+      "docAnchor": "d5"
+    },
+    {
+      "id": "vk",
+      "name": "帝王谷",
+      "lat": 25.7402,
+      "lng": 32.6014,
+      "img": "valley_of_kings.jpg",
+      "desc": "新王国法老的地下陵墓群，图坦卡蒙黄金面具的出土地。",
+      "tags": [
+        "古墓",
+        "博物馆",
+        "沙漠"
+      ],
+      "docAnchor": "d6"
+    },
+    {
+      "id": "hu",
+      "name": "赫尔格达",
+      "lat": 27.2579,
+      "lng": 33.8116,
+      "img": "hurghada_beach.jpg",
+      "desc": "红海之滨的度假天堂，珊瑚礁与玻璃海的最佳入口。",
+      "tags": [
+        "海滩",
+        "潜水",
+        "城市"
+      ],
+      "docAnchor": "d7"
+    },
+    {
+      "id": "rs",
+      "name": "红海浮潜点",
+      "aliases": [
+        "红海"
+      ],
+      "lat": 27.22,
+      "lng": 33.92,
+      "img": "red_sea_snorkeling.jpg",
+      "desc": "Giftun Island 附近的珊瑚花园，水下能见度超过 20 米。",
+      "tags": [
+        "潜水",
+        "海滩",
+        "岛屿"
+      ],
+      "docAnchor": "d8"
+    }
+  ],
+  "routes": [
+    {
+      "from": "ca",
+      "to": "gz",
+      "type": "drive"
+    },
+    {
+      "from": "ca",
+      "to": "as",
+      "type": "fly"
+    },
+    {
+      "from": "as",
+      "to": "ab",
+      "type": "drive"
+    },
+    {
+      "from": "as",
+      "to": "lu",
+      "type": "train"
+    },
+    {
+      "from": "lu",
+      "to": "vk",
+      "type": "drive"
+    },
+    {
+      "from": "lu",
+      "to": "hu",
+      "type": "drive"
+    },
+    {
+      "from": "hu",
+      "to": "rs",
+      "type": "ferry"
+    },
+    {
+      "from": "hu",
+      "to": "ca",
+      "type": "fly"
+    }
+  ]
+}
