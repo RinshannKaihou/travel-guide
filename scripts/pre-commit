@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Auto-rebuild map-data.bundle.js before each commit if any source files changed.
+# Source files: build_map.py, or any */*/map-data.json, */*/*.md under continent dirs.
+
+set -e
+
+CHANGED=$(git diff --cached --name-only --diff-filter=ACMR)
+
+if echo "$CHANGED" | grep -qE '^(build_map\.py|(europe|asia|africa|oceania)/[^/]+/(map-data\.json|.*\.md))$'; then
+    echo "[pre-commit] Source files changed — rebuilding map-data.bundle.js…"
+    python3 build_map.py
+fi
