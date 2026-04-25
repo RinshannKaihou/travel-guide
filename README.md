@@ -15,9 +15,9 @@
 
 ```
 travel_guide/
-├── interactive-map.html        # 交互式地图前端(单文件)
+├── index.html                  # 交互式地图前端(GitHub Pages 入口)
 ├── build_map.py                # 构建脚本:汇总所有目的地数据
-├── map-data.bundle.js          # 构建产物(已 ignore,本地自动生成)
+├── map-data.bundle.js          # 构建产物(由 pre-commit hook 自动重建并入库)
 ├── europe/
 │   └── iceland/
 │       ├── map-data.json       # 该目的地的地图数据(坐标、路线)
@@ -44,7 +44,7 @@ bash scripts/install-hooks.sh
 python3 build_map.py
 
 # 直接用浏览器打开
-open interactive-map.html
+open index.html
 ```
 
 ## 新增/修改一个目的地
@@ -73,6 +73,6 @@ open interactive-map.html
 
 ## 版本管理约定
 
-- `.DS_Store`、`.skills/`、`.claude/settings.local.json`、`map-data.bundle.js` 不入库。
+- `.DS_Store`、`.claude/settings.local.json` 不入库;`map-data.bundle.js` 入库以支持 GitHub Pages 部署。
 - 提交前自动重建 bundle(via `scripts/pre-commit`)。
 - 新目的地或重大重构后打 tag(如 `v1.0`、`v1.1`)。
