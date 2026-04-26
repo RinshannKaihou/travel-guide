@@ -176,10 +176,25 @@
       color: var(--text-sub);
     }
     .line-dot { width: 22px; height: 2px; border-radius: 2px; }
-    .line-dot.drive { background: var(--line-drive); }
-    .line-dot.fly { background: repeating-linear-gradient(90deg, var(--line-fly), var(--line-fly) 4px, transparent 4px, transparent 7px); height: 2px; }
-    .line-dot.ferry { background: repeating-linear-gradient(90deg, var(--line-ferry), var(--line-ferry) 3px, transparent 3px, transparent 6px); height: 2px; }
-    .line-dot.train { background: repeating-linear-gradient(90deg, var(--line-train), var(--line-train) 5px, transparent 5px, transparent 8px); height: 2px; }
+    .line-dot {
+      background-size: 200% 100%;
+      animation: legend-flow 1.6s linear infinite;
+    }
+    .line-dot.drive {
+      background: var(--line-drive);
+      animation: legend-pulse 3.2s ease-in-out infinite;
+    }
+    .line-dot.fly { background: repeating-linear-gradient(90deg, var(--line-fly), var(--line-fly) 4px, transparent 4px, transparent 8px); height: 2px; animation-duration: 1.4s; }
+    .line-dot.ferry { background: repeating-linear-gradient(90deg, var(--line-ferry), var(--line-ferry) 3px, transparent 3px, transparent 7px); height: 2px; animation-duration: 1.8s; }
+    .line-dot.train { background: repeating-linear-gradient(90deg, var(--line-train), var(--line-train) 5px, transparent 5px, transparent 9px); height: 2px; animation-duration: 2.2s; }
+    @keyframes legend-flow {
+      from { background-position: 0 0; }
+      to   { background-position: -16px 0; }
+    }
+    @keyframes legend-pulse {
+      0%, 100% { opacity: 0.6; }
+      50%      { opacity: 1; }
+    }
 
     /* Leaflet custom popup */
     .leaflet-popup-content-wrapper {
@@ -248,8 +263,9 @@
     }
     .popup-doc-btn:hover { background: rgba(255,255,255,0.18); color: var(--text-main); }
 
-    /* Custom marker */
-    .custom-marker {
+    /* Custom marker — outer is positioned by Leaflet, inner does the styling/animation */
+    .custom-marker { background: transparent; border: none; }
+    .marker-inner {
       width: 36px;
       height: 36px;
       border-radius: 50%;
@@ -259,22 +275,69 @@
       place-items: center;
       font-size: 14px;
       box-shadow: 0 6px 18px rgba(0,0,0,0.35), 0 0 0 4px rgba(0,0,0,0.15);
-      transition: transform .2s ease;
+      transition: transform .25s cubic-bezier(.2,.8,.2,1), box-shadow .25s ease;
+      animation: marker-in .55s cubic-bezier(.2,.9,.25,1.1) both;
+      will-change: transform;
+      position: relative;
     }
-    .custom-marker:hover { transform: scale(1.1); }
+    .marker-inner:hover {
+      transform: scale(1.18) translateY(-2px);
+      box-shadow: 0 10px 22px rgba(0,0,0,0.45), 0 0 0 4px rgba(0,0,0,0.15), 0 0 18px currentColor;
+      z-index: 10;
+    }
+    @keyframes marker-in {
+      0%   { transform: scale(0) translateY(8px); opacity: 0; }
+      60%  { transform: scale(1.15) translateY(0); opacity: 1; }
+      100% { transform: scale(1) translateY(0); opacity: 1; }
+    }
 
-    /* pulse ring */
+    /* pulse ring — two staggered rings for a more confident heartbeat */
     .marker-ring {
       position: absolute;
       inset: -8px;
       border-radius: 50%;
-      border: 1px solid currentColor;
-      opacity: .35;
-      animation: pulse 2.2s infinite ease-out;
+      border: 1.5px solid currentColor;
+      opacity: .4;
+      animation: pulse 2s infinite cubic-bezier(.4,0,.2,1);
+    }
+    .marker-ring.delay {
+      animation-delay: 1s;
     }
     @keyframes pulse {
-      0% { transform: scale(0.85); opacity: .45; }
-      100% { transform: scale(1.35); opacity: 0; }
+      0%   { transform: scale(0.8); opacity: .55; }
+      70%  { opacity: 0; }
+      100% { transform: scale(1.6); opacity: 0; }
+    }
+
+    /* Animated route lines — flowing dash for non-drive types, gentle shimmer for drive */
+    .leaflet-overlay-pane svg path.route-fly,
+    .leaflet-overlay-pane svg path.route-ferry,
+    .leaflet-overlay-pane svg path.route-train {
+      animation: dash-flow 1.6s linear infinite;
+    }
+    .leaflet-overlay-pane svg path.route-fly    { animation-duration: 1.4s; }
+    .leaflet-overlay-pane svg path.route-ferry  { animation-duration: 1.8s; }
+    .leaflet-overlay-pane svg path.route-train  { animation-duration: 2.2s; }
+    .leaflet-overlay-pane svg path.route-drive {
+      animation: drive-pulse 3.2s ease-in-out infinite;
+    }
+    @keyframes dash-flow {
+      to { stroke-dashoffset: -24; }
+    }
+    @keyframes drive-pulse {
+      0%, 100% { stroke-opacity: 0.7; }
+      50%      { stroke-opacity: 1; }
+    }
+    /* line draw-in when plan loads */
+    .leaflet-overlay-pane svg path.route-line {
+      stroke-dasharray: var(--dash, 0);
+    }
+    .route-enter {
+      animation: route-draw .9s cubic-bezier(.4,0,.2,1) both;
+    }
+    @keyframes route-draw {
+      from { stroke-dashoffset: 1200; opacity: 0; }
+      to   { stroke-dashoffset: 0;     opacity: 1; }
     }
 
     /* Doc Panel */
@@ -656,12 +719,40 @@
       return name;
     }
 
+    // Build a curved arc between two points using a quadratic bezier.
+    // curvature = 0.10 (gentle, ferries) ... 0.25 (pronounced, flights).
+    // Returns ~32 sampled latlngs so dash animation stays smooth.
+    function buildArc(from, to, curvature = 0.2) {
+      const lat1 = from.lat, lng1 = from.lng;
+      const lat2 = to.lat,   lng2 = to.lng;
+      // Handle antimeridian: pick shorter direction
+      let dLng = lng2 - lng1;
+      if (dLng > 180)  dLng -= 360;
+      if (dLng < -180) dLng += 360;
+      const midLat = (lat1 + lat2) / 2;
+      const midLng = lng1 + dLng / 2;
+      // Perpendicular offset (rotate the segment 90° CCW) scaled by curvature
+      const dLat = lat2 - lat1;
+      const ctrlLat = midLat + (-dLng) * curvature;
+      const ctrlLng = midLng + ( dLat) * curvature;
+      const pts = [];
+      const N = 32;
+      for (let i = 0; i <= N; i++) {
+        const t = i / N;
+        const u = 1 - t;
+        const lat = u*u*lat1 + 2*u*t*ctrlLat + t*t*lat2;
+        const lng = u*u*lng1 + 2*u*t*ctrlLng + t*t*lng2;
+        pts.push([lat, lng]);
+      }
+      return pts;
+    }
+
     function getLineStyle(type) {
       switch(type) {
-        case 'fly': return { color: '#ff8b94', weight: 2, opacity: 0.9, dashArray: '6,6' };
-        case 'ferry': return { color: '#9ecbf3', weight: 2.5, opacity: 0.85, dashArray: '4,4' };
-        case 'train': return { color: '#b4a7d6', weight: 2.5, opacity: 0.85, dashArray: '8,6' };
-        default: return { color: '#ffd3b6', weight: 2.5, opacity: 0.85 };
+        case 'fly':   return { color: '#ff8b94', weight: 2,   opacity: 0.9,  dashArray: '8,8',  className: 'route-line route-fly' };
+        case 'ferry': return { color: '#9ecbf3', weight: 2.5, opacity: 0.85, dashArray: '4,6',  className: 'route-line route-ferry' };
+        case 'train': return { color: '#b4a7d6', weight: 2.5, opacity: 0.85, dashArray: '10,8', className: 'route-line route-train' };
+        default:      return { color: '#ffd3b6', weight: 2.8, opacity: 0.85, className: 'route-line route-drive' };
       }
     }
 
@@ -687,8 +778,9 @@
       return '📍';
     }
 
-    function makeMarker(p, planKey, color) {
-      const iconHtml = `<div class="marker-ring" style="color:${color}"></div><div style="font-size:16px; filter:drop-shadow(0 1px 2px rgba(0,0,0,.6));">${iconFor(p)}</div>`;
+    function makeMarker(p, planKey, color, idx = 0) {
+      const delay = Math.min(idx * 50, 900);
+      const iconHtml = `<div class="marker-inner" style="color:${color}; animation-delay:${delay}ms;"><div class="marker-ring" style="color:${color}"></div><div class="marker-ring delay" style="color:${color}"></div><div style="font-size:16px; filter:drop-shadow(0 1px 2px rgba(0,0,0,.6));">${iconFor(p)}</div></div>`;
       const icon = L.divIcon({
         className: 'custom-marker',
         html: iconHtml,
@@ -741,18 +833,28 @@
       const color = meta?.color || '#9ecbf3';
 
       // Draw lines first (under markers)
-      plan.routes.forEach(r => {
+      plan.routes.forEach((r, i) => {
         const fromP = plan.points.find(p => p.id === r.from);
         const toP = plan.points.find(p => p.id === r.to);
         if (!fromP || !toP) return;
-        const latlngs = [[fromP.lat, fromP.lng], [toP.lat, toP.lng]];
+
+        const latlngs = (r.type === 'fly' || r.type === 'ferry')
+          ? buildArc(fromP, toP, r.type === 'fly' ? 0.22 : 0.10)
+          : [[fromP.lat, fromP.lng], [toP.lat, toP.lng]];
+
         const line = L.polyline(latlngs, getLineStyle(r.type));
         line.addTo(linesLayer);
+        // Stagger the draw-in animation per route
+        const path = line.getElement && line.getElement();
+        if (path) {
+          path.classList.add('route-enter');
+          path.style.animationDelay = Math.min(i * 60, 800) + 'ms';
+        }
       });
 
-      // Draw markers
-      plan.points.forEach(p => {
-        makeMarker(p, key, color).addTo(markersLayer);
+      // Draw markers (staggered via _enterIdx)
+      plan.points.forEach((p, i) => {
+        makeMarker(p, key, color, i).addTo(markersLayer);
       });
 
       // Fit bounds with padding
