@@ -19,7 +19,7 @@
 ├── scripts/
 │   ├── pre-commit              # git hook 源码
 │   └── install-hooks.sh        # hook 安装脚本(clone 后跑一次)
-├── 北欧9天婚假最终方案.md         # 历史规划文档,保留作记录
+├── 北欧9天最终方案.md         # 历史规划文档,保留作记录
 └── 北欧多国游方案.md 等           # 同上
 ```
 
@@ -72,7 +72,7 @@ python3 ~/.claude/skills/travel-itinerary-builder/scripts/validate_itinerary.py 
 
 - `map-data.bundle.js`(产物)
 - `.git/hooks/pre-commit`(改源文件 `scripts/pre-commit` 然后跑 `bash scripts/install-hooks.sh`)
-- 根目录的"北欧9天婚假最终方案.md"等历史文档(保留作记录,虽然结构不符合新 schema)
+- 根目录的"北欧9天最终方案.md"等历史文档(保留作记录,虽然结构不符合新 schema)
 
 ## 这个项目用的 skill
 
