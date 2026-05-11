@@ -1,5 +1,7 @@
 # CLAUDE.md
 
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+
 个人旅行攻略合集。每个目的地一份逐日 Markdown 行程 + 地图坐标 + 配图,统一用一个 HTML 互动地图浏览。已部署到 GitHub Pages。
 
 ## 目录结构
@@ -22,6 +24,38 @@
 ├── 北欧9天最终方案.md         # 历史规划文档,保留作记录
 └── 北欧多国游方案.md 等           # 同上
 ```
+
+## 常用命令
+
+```bash
+# 首次 clone 后跑一次,把 scripts/pre-commit 装进 .git/hooks/
+bash scripts/install-hooks.sh
+
+# 手动重建 bundle(本地预览前必须跑;commit 时 hook 会自动跑)
+python3 build_map.py
+
+# 本地预览 —— 纯静态,不需要 server,直接浏览器打开即可
+open index.html
+
+# 验证某个目的地的数据合规性(JSON schema、md 结构、图片存在性)
+python3 ~/.claude/skills/travel-itinerary-builder/scripts/validate_itinerary.py <continent>/<slug>
+```
+
+## 工作原理(Architecture)
+
+纯静态站点,没有后端。数据流:
+
+1. `build_map.py` 扫描 `europe/`、`asia/`、`africa/`、`oceania/` 下每个目的地文件夹,读取 `map-data.json` + 一个 `.md` 文件。
+2. 输出单一 bundle `map-data.bundle.js`,挂载 4 个全局变量:
+   - `window.ITINERARY_INDEX` —— 所有目的地的元数据列表(按大洲+名称排序)
+   - `window.ITINERARY_PLANS` —— `{plan_id: {points, routes}}` 地图数据
+   - `window.ITINERARY_CONTENTS` —— `{plan_id: <md 全文>}`,用 JS 模板字符串装载(已转义 `\``、`${`)
+   - `window.ITINERARY_IMAGE_DIRS` —— `{plan_id: "./<continent>/<slug>/images/"}`
+3. `index.html` 在 `DOMContentLoaded` 时读这四个变量渲染 Leaflet 地图 + 侧栏 md。
+
+**多 md 文件的选择规则**:`build_map.py:find_md_file()` 优先选名字含"执行手册"/"规划"/"攻略"的文件,否则取第一个匹配。一个目的地有多份 md(如草稿+定稿)时,用关键字命名定稿那份避免歧义。
+
+**路线颜色由 `route.type` 决定**:`drive`/`fly`/`ferry`/`train` 分别对应 `index.html` 里 `--line-drive`/`--line-fly`/`--line-ferry`/`--line-train` 四个 CSS 变量,改类型即改颜色。
 
 ## 关键约定(违反会出错)
 
@@ -57,16 +91,6 @@ git push
 - GitHub Pages 已启用,从 `main` 分支根目录部署
 - 线上地址:https://rinshannkaihou.github.io/travel-guide/
 - push main → 1-2 分钟自动上线
-
-## 验证脚本
-
-修改后想确认数据合规:
-
-```bash
-python3 ~/.claude/skills/travel-itinerary-builder/scripts/validate_itinerary.py europe/<slug>
-```
-
-会检查 JSON schema、md 结构、图片是否真实存在。
 
 ## 不要碰
 
