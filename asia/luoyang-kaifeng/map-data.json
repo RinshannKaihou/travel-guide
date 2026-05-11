@@ -1,0 +1,182 @@
+{
+  "plan_id": "luoyang-kaifeng",
+  "name": "洛阳·开封",
+  "color": "#c14a45",
+  "center": [
+    34.74,
+    113.45
+  ],
+  "zoom": 8,
+  "points": [
+    {
+      "id": "lc",
+      "name": "洛阳老城（洛邑古城+十字街）",
+      "aliases": [
+        "洛邑古城",
+        "老城十字街",
+        "真不同水席"
+      ],
+      "lat": 34.6857,
+      "lng": 112.4658,
+      "img": "luoyi_ancient_city.jpg",
+      "desc": "隋唐金市旧址上的灯笼夜游场+十字街明清夜市，洛阳水席与不翻汤的烟火所在。",
+      "tags": [
+        "古城",
+        "美食",
+        "夜市"
+      ],
+      "docAnchor": "d1"
+    },
+    {
+      "id": "lm",
+      "name": "龙门石窟",
+      "lat": 34.5571,
+      "lng": 112.4715,
+      "img": "longmen_grottoes.jpg",
+      "desc": "北魏到盛唐的造像艺术殿堂，奉先寺卢舍那大佛是中国佛教雕塑的巅峰。",
+      "tags": [
+        "石窟",
+        "世界遗产",
+        "古迹"
+      ],
+      "docAnchor": "d2"
+    },
+    {
+      "id": "mt",
+      "name": "明堂天堂",
+      "lat": 34.684,
+      "lng": 112.4651,
+      "img": "mingtang_tiantang.jpg",
+      "desc": "武则天宫城核心——明堂万象神宫与九层礼佛塔天堂，登顶俯瞰整座洛阳老城。",
+      "tags": [
+        "古迹",
+        "博物馆"
+      ],
+      "docAnchor": "d2"
+    },
+    {
+      "id": "yt",
+      "name": "应天门",
+      "lat": 34.6791,
+      "lng": 112.4659,
+      "img": "yingtian_gate.jpg",
+      "desc": "隋唐洛阳城宫城正南门，两重观三出阙的形制比天安门早一千年，夜景灯光震撼。",
+      "tags": [
+        "古迹",
+        "城堡"
+      ],
+      "docAnchor": "d2"
+    },
+    {
+      "id": "bm",
+      "name": "白马寺",
+      "lat": 34.722,
+      "lng": 112.595,
+      "img": "white_horse_temple.jpg",
+      "desc": "公元68年东汉所建，中国第一座官办佛教寺院，汉传佛教祖庭，含印缅泰国际佛殿区。",
+      "tags": [
+        "寺庙",
+        "古迹"
+      ],
+      "docAnchor": "d3"
+    },
+    {
+      "id": "gl",
+      "name": "开封鼓楼夜市",
+      "aliases": [
+        "鼓楼夜市",
+        "鼓楼广场"
+      ],
+      "lat": 34.7977,
+      "lng": 114.3525,
+      "img": "kaifeng_gulou_night.jpg",
+      "desc": "开封最古老的夜市，每晚18:30战鼓声响摊主就位，羊肉炕馍与杏仁茶是必点。",
+      "tags": [
+        "夜市",
+        "美食"
+      ],
+      "docAnchor": "d3"
+    },
+    {
+      "id": "kf",
+      "name": "开封府",
+      "lat": 34.7972,
+      "lng": 114.3413,
+      "img": "kaifeng_prefecture.jpg",
+      "desc": "按宋代《营造法式》重建的北宋官署建筑群，上午9点开衙仪式实景演出。",
+      "tags": [
+        "古迹",
+        "城堡"
+      ],
+      "docAnchor": "d4"
+    },
+    {
+      "id": "dx",
+      "name": "大相国寺",
+      "lat": 34.7944,
+      "lng": 114.3565,
+      "img": "daxiangguo_temple.jpg",
+      "desc": "始建于公元555年的皇家寺院，八角琉璃殿藏一整棵银杏雕成的千手千眼观音。",
+      "tags": [
+        "寺庙",
+        "古迹"
+      ],
+      "docAnchor": "d4"
+    },
+    {
+      "id": "sd",
+      "name": "开封书店街",
+      "lat": 34.7976,
+      "lng": 114.3523,
+      "img": "kaifeng_bookstore_street.jpg",
+      "desc": "明清木质商铺老街，旧书店、文房四宝、汴绣手作工坊，开封最有慢气质的一条街。",
+      "tags": [
+        "古街",
+        "手作"
+      ],
+      "docAnchor": "d4"
+    }
+  ],
+  "routes": [
+    {
+      "from": "lc",
+      "to": "lm",
+      "type": "drive"
+    },
+    {
+      "from": "lm",
+      "to": "mt",
+      "type": "drive"
+    },
+    {
+      "from": "mt",
+      "to": "yt",
+      "type": "drive"
+    },
+    {
+      "from": "yt",
+      "to": "bm",
+      "type": "drive"
+    },
+    {
+      "from": "bm",
+      "to": "gl",
+      "type": "train"
+    },
+    {
+      "from": "gl",
+      "to": "kf",
+      "type": "drive"
+    },
+    {
+      "from": "kf",
+      "to": "dx",
+      "type": "drive"
+    },
+    {
+      "from": "dx",
+      "to": "sd",
+      "type": "drive"
+    }
+  ]
+}
