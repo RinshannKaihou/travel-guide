@@ -1,0 +1,151 @@
+{
+  "plan_id": "svalbard-longyearbyen",
+  "name": "斯瓦尔巴·朗伊尔城",
+  "color": "#6b8fb5",
+  "center": [78.35, 15.85],
+  "zoom": 8,
+  "points": [
+    {
+      "id": "lyr_airport",
+      "name": "斯瓦尔巴机场",
+      "aliases": ["Svalbard Airport", "LYR", "Longyear Airport"],
+      "lat": 78.2461,
+      "lng": 15.4656,
+      "img": "svalbard_airport.jpg",
+      "desc": "世界最北的定期商业机场，1975 年建成，通往奥斯陆和特罗姆瑟。",
+      "tags": ["机场"],
+      "docAnchor": "d1"
+    },
+    {
+      "id": "lyr_town",
+      "name": "朗伊尔城",
+      "aliases": ["Longyearbyen", "朗伊尔"],
+      "lat": 78.2233,
+      "lng": 15.6469,
+      "img": "longyearbyen_town.jpg",
+      "desc": "北纬 78° 的世界最北城镇（人口 >1000），彩色木屋与极地荒野的分界线。",
+      "tags": ["城市"],
+      "docAnchor": "d1"
+    },
+    {
+      "id": "svalbard_museum",
+      "name": "斯瓦尔巴博物馆",
+      "aliases": ["Svalbard Museum"],
+      "lat": 78.2224,
+      "lng": 15.6519,
+      "img": "svalbard_museum.jpg",
+      "desc": "讲述捕鲸、煤矿、极地科学与斯瓦尔巴条约的历史，了解此地的最佳起点。",
+      "tags": ["博物馆"],
+      "docAnchor": "d1"
+    },
+    {
+      "id": "svalbard_church",
+      "name": "斯瓦尔巴教堂",
+      "aliases": ["Svalbard Kirke", "Svalbard Church"],
+      "lat": 78.2198,
+      "lng": 15.6349,
+      "img": "svalbard_church.jpg",
+      "desc": "世界最北的教堂，红褐色木结构，内壁朴素温暖，签名簿上满是全球旅人的名字。",
+      "tags": ["教堂"],
+      "docAnchor": "d1"
+    },
+    {
+      "id": "barentz_pub",
+      "name": "Barentz Gastropub",
+      "aliases": ["Barentz Pub"],
+      "lat": 78.2183,
+      "lng": 15.6386,
+      "img": "barentz_pub.jpg",
+      "desc": "世界最北的酒吧，驯鹿肉汉堡和本地啤酒，矿工与研究员共饮的地方。",
+      "tags": ["餐厅"],
+      "docAnchor": "d1"
+    },
+    {
+      "id": "coal_mine_3",
+      "name": "煤矿 3 号",
+      "aliases": ["Gruve 3", "Coal Mine No. 3", "Mine 3"],
+      "lat": 78.2383,
+      "lng": 15.4444,
+      "img": "coal_mine_3.jpg",
+      "desc": "朗伊尔城最后的薄层开采矿井，1996 年停产，现可戴安全帽进入真实巷道探秘。",
+      "tags": ["博物馆"],
+      "docAnchor": "d2"
+    },
+    {
+      "id": "seed_vault",
+      "name": "斯瓦尔巴全球种子库",
+      "aliases": ["Svalbard Global Seed Vault", "Doomsday Vault", "末日种子库"],
+      "lat": 78.2357,
+      "lng": 15.4912,
+      "img": "seed_vault.jpg",
+      "desc": "深埋永久冻土 120 米的人类文明备份库，储存超过 100 万份种子样本。仅外观参观。",
+      "tags": ["博物馆"],
+      "docAnchor": "d2"
+    },
+    {
+      "id": "huset",
+      "name": "Huset Restaurant",
+      "aliases": ["Huset"],
+      "lat": 78.2076,
+      "lng": 15.5897,
+      "img": "huset_restaurant.jpg",
+      "desc": "世界最北的高级餐厅，1951 年建成，拥有 20000 瓶藏酒的极地酒窖。",
+      "tags": ["餐厅"],
+      "docAnchor": "d2"
+    },
+    {
+      "id": "pyramiden",
+      "name": "皮拉米登",
+      "aliases": ["Pyramiden", "苏联鬼城", "Soviet Ghost Town"],
+      "lat": 78.6561,
+      "lng": 16.3250,
+      "img": "pyramiden_ghost_town.jpg",
+      "desc": "1998 年被遗弃的苏联煤矿城，永久冻土封存了一切——列宁像、文化宫、空荡教室。",
+      "tags": ["博物馆"],
+      "docAnchor": "d3"
+    },
+    {
+      "id": "isfjorden",
+      "name": "伊斯峡湾",
+      "aliases": ["Isfjorden", "冰峡湾"],
+      "lat": 78.25,
+      "lng": 15.80,
+      "img": "isfjorden.jpg",
+      "desc": "斯瓦尔巴第二大峡湾，通往皮拉米登的航线穿越此处，夏季可见海象、鲸鱼和海鹦。",
+      "tags": ["峡湾"],
+      "docAnchor": "d4"
+    }
+  ],
+  "routes": [
+    {
+      "from": "lyr_airport",
+      "to": "lyr_town",
+      "type": "drive"
+    },
+    {
+      "from": "lyr_town",
+      "to": "coal_mine_3",
+      "type": "drive"
+    },
+    {
+      "from": "coal_mine_3",
+      "to": "seed_vault",
+      "type": "drive"
+    },
+    {
+      "from": "lyr_town",
+      "to": "pyramiden",
+      "type": "ferry"
+    },
+    {
+      "from": "lyr_town",
+      "to": "huset",
+      "type": "drive"
+    },
+    {
+      "from": "lyr_town",
+      "to": "isfjorden",
+      "type": "ferry"
+    }
+  ]
+}
