@@ -1,0 +1,159 @@
+{
+  "plan_id": "seoul-summer",
+  "name": "首尔夏日",
+  "color": "#e63946",
+  "center": [37.5650, 126.9850],
+  "zoom": 12,
+  "points": [
+    {
+      "id": "icn",
+      "name": "仁川国际机场",
+      "aliases": ["仁川机场", "ICN"],
+      "lat": 37.4602,
+      "lng": 126.4407,
+      "img": "incheon_airport.jpg",
+      "desc": "首尔的主要国际机场，AREX 机场快线 43 分钟直达首尔站。",
+      "tags": ["机场"],
+      "docAnchor": "d1"
+    },
+    {
+      "id": "my",
+      "name": "明洞",
+      "lat": 37.5636,
+      "lng": 126.9869,
+      "img": "myeongdong.jpg",
+      "desc": "首尔最大购物街区，霓虹灯与街头美食的夜晚天堂，明洞圣堂是街区视觉地标。",
+      "tags": ["购物", "美食"],
+      "docAnchor": "d2"
+    },
+    {
+      "id": "gh",
+      "name": "光化门广场",
+      "aliases": ["光化门"],
+      "lat": 37.5759,
+      "lng": 126.9769,
+      "img": "gwanghwamun.jpg",
+      "desc": "首尔市中心广场，世宗大王与李舜臣铜像守望，背后是景福宫光化门。",
+      "tags": ["广场", "历史"],
+      "docAnchor": "d1"
+    },
+    {
+      "id": "gb",
+      "name": "景福宫",
+      "lat": 37.5796,
+      "lng": 126.9770,
+      "img": "gyeongbokgung.jpg",
+      "desc": "朝鲜王朝正宫，首尔最大最雄伟的宫殿，每日守门将交接仪式色彩斑斓。",
+      "tags": ["宫殿", "历史"],
+      "docAnchor": "d1"
+    },
+    {
+      "id": "bc",
+      "name": "北村韩屋村",
+      "aliases": ["北村"],
+      "lat": 37.5826,
+      "lng": 126.9831,
+      "img": "bukchon_hanok.jpg",
+      "desc": "首尔保存最完好的传统韩屋聚落，600 多栋青瓦木屋沿山坡错落，俯瞰首尔老城与现代高楼同框。",
+      "tags": ["韩屋", "传统"],
+      "docAnchor": "d1"
+    },
+    {
+      "id": "is",
+      "name": "仁寺洞",
+      "lat": 37.5735,
+      "lng": 126.9870,
+      "img": "insadong.jpg",
+      "desc": "首尔的文化心脏，500 米长街汇集传统茶馆、艺术家工作室与韩国手工艺品。",
+      "tags": ["艺术", "传统"],
+      "docAnchor": "d1"
+    },
+    {
+      "id": "cg",
+      "name": "清溪川",
+      "lat": 37.5690,
+      "lng": 126.9784,
+      "img": "cheonggyecheon.jpg",
+      "desc": "首尔市中心 11 公里长的复原城市溪流，夏夜 LED 灯光亮起，是最浪漫的城市散步道。",
+      "tags": ["城市", "夜游"],
+      "docAnchor": "d1"
+    },
+    {
+      "id": "cd",
+      "name": "昌德宫与后苑",
+      "aliases": ["昌德宫", "秘苑"],
+      "lat": 37.5823,
+      "lng": 126.9910,
+      "img": "changdeokgung.jpg",
+      "desc": "UNESCO 世界遗产，朝鲜五大宫殿中保存最完好，后苑秘密花园是东方园林的巅峰之作。",
+      "tags": ["宫殿", "UNESCO"],
+      "docAnchor": "d2"
+    },
+    {
+      "id": "nt",
+      "name": "N首尔塔",
+      "aliases": ["南山塔", "N Seoul Tower"],
+      "lat": 37.5512,
+      "lng": 126.9882,
+      "img": "n_seoul_tower.jpg",
+      "desc": "首尔地标，海拔 243 米观景塔，俯瞰全城与汉江，夜晚玫瑰金色灯光下的爱情锁墙是情侣必到之地。",
+      "tags": ["观景", "浪漫"],
+      "docAnchor": "d2"
+    },
+    {
+      "id": "hr",
+      "name": "汉江公园(汝矣岛)",
+      "aliases": ["汉江", "汝矣岛"],
+      "lat": 37.5217,
+      "lng": 126.9348,
+      "img": "hangang.jpg",
+      "desc": "首尔的母亲河，夏夜江畔的炸鸡啤酒是韩国最具代表性的国民体验，夜游船欣赏两岸灯光。",
+      "tags": ["河流", "夜游"],
+      "docAnchor": "d2"
+    },
+    {
+      "id": "ys",
+      "name": "益善洞",
+      "lat": 37.5740,
+      "lng": 127.0008,
+      "img": "iksundong.jpg",
+      "desc": "首尔近年最火的文艺复兴街区，100 多栋 1930 年代韩屋被改造成咖啡馆与设计师店。",
+      "tags": ["咖啡", "潮流"],
+      "docAnchor": "d3"
+    },
+    {
+      "id": "gg",
+      "name": "林荫道",
+      "aliases": ["Garosu-gil", "江南林荫道"],
+      "lat": 37.5235,
+      "lng": 127.0400,
+      "img": "garosu_gil.jpg",
+      "desc": "江南最优雅的法式梧桐林荫道，400 米长街汇集设计精品店、买手店与咖啡馆。",
+      "tags": ["购物", "潮流"],
+      "docAnchor": "d3"
+    },
+    {
+      "id": "co",
+      "name": "COEX 星空图书馆",
+      "aliases": ["COEX Mall", "星空图书馆"],
+      "lat": 37.5125,
+      "lng": 127.0589,
+      "img": "coex_library.jpg",
+      "desc": "亚洲最大地下购物中心的中庭巨型图书馆，三层楼高书架，是首尔最上镜的网红地标。",
+      "tags": ["图书馆", "购物"],
+      "docAnchor": "d3"
+    }
+  ],
+  "routes": [
+    {"from": "icn", "to": "my", "type": "train"},
+    {"from": "my", "to": "gh", "type": "train"},
+    {"from": "my", "to": "cd", "type": "train"},
+    {"from": "cd", "to": "nt", "type": "train"},
+    {"from": "nt", "to": "my", "type": "train"},
+    {"from": "my", "to": "hr", "type": "train"},
+    {"from": "my", "to": "ys", "type": "train"},
+    {"from": "ys", "to": "gg", "type": "train"},
+    {"from": "gg", "to": "co", "type": "train"},
+    {"from": "co", "to": "icn", "type": "train"}
+  ]
+}
