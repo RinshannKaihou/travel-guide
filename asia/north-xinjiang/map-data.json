@@ -1,0 +1,167 @@
+{
+  "plan_id": "north-xinjiang",
+  "name": "北疆环线",
+  "color": "#2a9d8f",
+  "center": [46.5, 87.2],
+  "zoom": 6,
+  "points": [
+    {
+      "id": "urc",
+      "name": "乌鲁木齐",
+      "aliases": ["乌市", "Urumqi", "地窝堡机场"],
+      "lat": 43.825,
+      "lng": 87.616,
+      "img": "urumqi_grand_bazaar.jpg",
+      "desc": "环线起终点。地窝堡机场落地取车,傍晚逛国际大巴扎,用一顿红柳烤肉开场。",
+      "tags": ["城市", "美食"],
+      "docAnchor": "d1"
+    },
+    {
+      "id": "kml",
+      "name": "卡拉麦里",
+      "aliases": ["卡拉麦里保护区", "G216"],
+      "lat": 45.2,
+      "lng": 88.97,
+      "img": "gobi_desert_highway.jpg",
+      "desc": "G216 穿越的有蹄类自然保护区,笔直戈壁公路两侧常见普氏野马、鹅喉羚、蒙古野驴。",
+      "tags": ["戈壁", "自然"],
+      "docAnchor": "d2"
+    },
+    {
+      "id": "kkth",
+      "name": "可可托海镇",
+      "aliases": ["可可托海", "Koktokay", "三号矿坑"],
+      "lat": 47.2,
+      "lng": 89.78,
+      "img": "keketuohai_shenzhongshan.jpg",
+      "desc": "额尔齐斯河畔的矿业小镇,三号矿坑贡献了'两弹一星'的关键稀有金属,今晚睡在景区门口。",
+      "tags": ["小镇", "历史"],
+      "docAnchor": "d2"
+    },
+    {
+      "id": "szs",
+      "name": "神钟山",
+      "aliases": ["额尔齐斯大峡谷", "可可托海景区"],
+      "lat": 47.31,
+      "lng": 89.89,
+      "img": "keketuohai_shenzhongshan.jpg",
+      "desc": "365 米高的花岗岩独石倒扣在额河边,沿河栈道走进北疆独一份的花岗岩峡谷。",
+      "tags": ["峡谷", "山峰"],
+      "docAnchor": "d3"
+    },
+    {
+      "id": "altay",
+      "name": "阿勒泰市",
+      "aliases": ["阿勒泰"],
+      "lat": 47.845,
+      "lng": 88.14,
+      "img": "gobi_desert_highway.jpg",
+      "desc": "转场途经的地区首府,午餐补给站。",
+      "tags": ["城市", "途经"],
+      "docAnchor": "d3"
+    },
+    {
+      "id": "bej",
+      "name": "布尔津",
+      "aliases": ["布尔津县", "童话边城"],
+      "lat": 47.7,
+      "lng": 86.86,
+      "img": "wucaitan_rainbow_beach.jpg",
+      "desc": "喀纳斯门户小镇,河堤夜市的炭火烤狗鱼配冰格瓦斯,是中俄口岸镇的味觉遗产。",
+      "tags": ["小镇", "美食"],
+      "docAnchor": "d3"
+    },
+    {
+      "id": "wct",
+      "name": "五彩滩",
+      "aliases": ["五彩滩景区"],
+      "lat": 47.85,
+      "lng": 86.6,
+      "img": "wucaitan_rainbow_beach.jpg",
+      "desc": "额尔齐斯河北岸的雅丹河滩,一河隔两岸;日落前 40 分钟,泥岩从赭黄烧到绛红。",
+      "tags": ["雅丹", "岩石", "日落"],
+      "docAnchor": "d3"
+    },
+    {
+      "id": "jdy",
+      "name": "贾登峪",
+      "aliases": ["贾登峪门票站"],
+      "lat": 48.62,
+      "lng": 87.23,
+      "img": "kanas_moon_bay.jpg",
+      "desc": "喀纳斯换乘基地。私家车停这里,区间车进山;住这里用'二进票'两次进山最划算。",
+      "tags": ["山谷"],
+      "docAnchor": "d4"
+    },
+    {
+      "id": "kns",
+      "name": "喀纳斯湖",
+      "aliases": ["喀纳斯", "Kanas", "月亮湾", "卧龙湾", "神仙湾", "观鱼台"],
+      "lat": 48.71,
+      "lng": 87.03,
+      "img": "kanas_lake.jpg",
+      "desc": "冰碛堰塞湖与三湾栈道:奶蓝色河水拐过云杉林;次日清晨上观鱼台俯瞰整面变色湖。",
+      "tags": ["森林", "湖泊", "徒步"],
+      "docAnchor": "d4"
+    },
+    {
+      "id": "hm",
+      "name": "禾木村",
+      "aliases": ["禾木", "Hemu"],
+      "lat": 48.57,
+      "lng": 87.44,
+      "img": "hemu_village.jpg",
+      "desc": "图瓦人原木村落,全程最值得花钱的一晚:傍晚观景台看炊烟日落,清晨看晨雾漫过河谷。",
+      "tags": ["村庄", "徒步", "晨雾"],
+      "docAnchor": "d5"
+    },
+    {
+      "id": "mgc",
+      "name": "世界魔鬼城",
+      "aliases": ["乌尔禾魔鬼城", "魔鬼城", "乌尔禾"],
+      "lat": 46.19,
+      "lng": 85.63,
+      "img": "urho_ghost_city.jpg",
+      "desc": "乌尔禾风蚀雅丹群,观光小火车穿行其间;傍晚低角度光线把'城堡'从土黄烧成橙红。",
+      "tags": ["雅丹", "岩石"],
+      "docAnchor": "d6"
+    },
+    {
+      "id": "klmy",
+      "name": "克拉玛依",
+      "aliases": ["克拉玛依市"],
+      "lat": 45.58,
+      "lng": 84.89,
+      "img": "desert_highway_return.jpg",
+      "desc": "油城功能性一晚:酒店新、停车易,为次日高速返程还车做缓冲。",
+      "tags": ["城市"],
+      "docAnchor": "d6"
+    },
+    {
+      "id": "dsz",
+      "name": "独山子大峡谷",
+      "aliases": ["独山子"],
+      "lat": 44.18,
+      "lng": 84.84,
+      "img": "dushanzi_canyon.jpg",
+      "desc": "返程顺路彩蛋(仅当晚班机):奎屯河把戈壁切出 200 米深的千层岩沟壑。",
+      "tags": ["峡谷"],
+      "docAnchor": "d7"
+    }
+  ],
+  "routes": [
+    { "from": "urc", "to": "kml", "type": "drive" },
+    { "from": "kml", "to": "kkth", "type": "drive" },
+    { "from": "kkth", "to": "szs", "type": "drive" },
+    { "from": "kkth", "to": "altay", "type": "drive" },
+    { "from": "altay", "to": "bej", "type": "drive" },
+    { "from": "bej", "to": "wct", "type": "drive" },
+    { "from": "bej", "to": "jdy", "type": "drive" },
+    { "from": "jdy", "to": "kns", "type": "drive" },
+    { "from": "jdy", "to": "hm", "type": "drive" },
+    { "from": "hm", "to": "mgc", "type": "drive" },
+    { "from": "mgc", "to": "klmy", "type": "drive" },
+    { "from": "klmy", "to": "dsz", "type": "drive" },
+    { "from": "dsz", "to": "urc", "type": "drive" }
+  ]
+}
