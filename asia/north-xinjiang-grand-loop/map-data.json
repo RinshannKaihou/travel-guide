@@ -1,0 +1,131 @@
+{
+  "plan_id": "north-xinjiang-grand-loop",
+  "name": "北疆大环线(赛湖版)",
+  "color": "#e76f51",
+  "center": [46.0, 84.8],
+  "zoom": 6,
+  "points": [
+    {
+      "id": "urc",
+      "name": "乌鲁木齐",
+      "aliases": ["乌市", "Urumqi", "地窝堡机场", "自治区博物馆"],
+      "lat": 43.825,
+      "lng": 87.616,
+      "img": "urumqi_grand_bazaar.jpg",
+      "desc": "环线起终点。地窝堡机场落地取车,傍晚逛国际大巴扎,用一顿红柳烤肉开场。",
+      "tags": ["城市", "美食"],
+      "docAnchor": "d1"
+    },
+    {
+      "id": "slh",
+      "name": "赛里木湖",
+      "aliases": ["赛湖", "Sayram Lake", "大西洋最后一滴眼泪"],
+      "lat": 44.598,
+      "lng": 81.168,
+      "img": "sayram_lake.jpg",
+      "desc": "458 km² 的高原蓝。90 km 逆时针环湖自驾(套票每日限 3000 辆车,提前约),日落是压轴。",
+      "tags": ["湖泊", "自然"],
+      "docAnchor": "d2"
+    },
+    {
+      "id": "mgc",
+      "name": "世界魔鬼城",
+      "aliases": ["乌尔禾魔鬼城", "魔鬼城", "乌尔禾", "乌尔禾镇"],
+      "lat": 46.19,
+      "lng": 85.63,
+      "img": "urho_ghost_city.jpg",
+      "desc": "乌尔禾风蚀雅丹群,观光小火车穿行其间;傍晚低角度光线把'城堡'从土黄烧成橙红,看完日落住乌尔禾镇。",
+      "tags": ["雅丹", "岩石"],
+      "docAnchor": "d3"
+    },
+    {
+      "id": "bej",
+      "name": "布尔津",
+      "aliases": ["布尔津县", "童话边城"],
+      "lat": 47.7,
+      "lng": 86.86,
+      "img": "wucaitan_rainbow_beach.jpg",
+      "desc": "喀纳斯门户小镇,河堤夜市的炭火烤狗鱼配冰格瓦斯,是中俄口岸镇的味觉遗产。",
+      "tags": ["小镇", "美食"],
+      "docAnchor": "d4"
+    },
+    {
+      "id": "wct",
+      "name": "五彩滩",
+      "aliases": ["五彩滩景区"],
+      "lat": 47.85,
+      "lng": 86.6,
+      "img": "wucaitan_rainbow_beach.jpg",
+      "desc": "额尔齐斯河北岸的雅丹河滩,一河隔两岸;日落前 40 分钟,泥岩从赭黄烧到绛红。",
+      "tags": ["雅丹", "岩石", "日落"],
+      "docAnchor": "d4"
+    },
+    {
+      "id": "jdy",
+      "name": "贾登峪",
+      "aliases": ["贾登峪门票站"],
+      "lat": 48.62,
+      "lng": 87.23,
+      "img": "kanas_moon_bay.jpg",
+      "desc": "喀纳斯换乘基地。私家车停这里,区间车进山;住这里用'二进票'两次进山最划算。",
+      "tags": ["山谷"],
+      "docAnchor": "d5"
+    },
+    {
+      "id": "kns",
+      "name": "喀纳斯湖",
+      "aliases": ["喀纳斯", "Kanas", "月亮湾", "卧龙湾", "神仙湾", "观鱼台"],
+      "lat": 48.71,
+      "lng": 87.03,
+      "img": "kanas_lake.jpg",
+      "desc": "冰碛堰塞湖与三湾栈道:奶蓝色河水拐过云杉林;次日清晨赶 8 点首班车上观鱼台(专线 20 元)俯瞰变色湖。",
+      "tags": ["森林", "湖泊", "徒步"],
+      "docAnchor": "d5"
+    },
+    {
+      "id": "hm",
+      "name": "禾木村",
+      "aliases": ["禾木", "Hemu"],
+      "lat": 48.57,
+      "lng": 87.44,
+      "img": "hemu_village.jpg",
+      "desc": "图瓦人原木村落,全程最值得花钱的一晚(旺季 800~1500 元,务必提前订):傍晚炊烟日落,清晨晨雾漫过河谷。",
+      "tags": ["村庄", "徒步", "晨雾"],
+      "docAnchor": "d6"
+    },
+    {
+      "id": "ahe",
+      "name": "阿禾公路",
+      "aliases": ["阿禾景观大道", "托勒海特草原", "通巴原始森林"],
+      "lat": 48.2,
+      "lng": 87.8,
+      "img": "ahe_highway.jpg",
+      "desc": "2025 年通车的 209 km 景观大道:达坂、原始森林、草原、湿地一路轮番上场,需预约(每日 9:30-15:00 放行)。",
+      "tags": ["山谷", "自然"],
+      "docAnchor": "d7"
+    },
+    {
+      "id": "altay",
+      "name": "阿勒泰市",
+      "aliases": ["阿勒泰"],
+      "lat": 47.845,
+      "lng": 88.14,
+      "img": "ahe_highway.jpg",
+      "desc": "阿禾公路的终点、地区首府,休整一晚,次日上 S21 沙漠高速 5 小时直插乌鲁木齐。",
+      "tags": ["城市"],
+      "docAnchor": "d7"
+    }
+  ],
+  "routes": [
+    { "from": "urc", "to": "slh", "type": "drive" },
+    { "from": "slh", "to": "mgc", "type": "drive" },
+    { "from": "mgc", "to": "bej", "type": "drive" },
+    { "from": "bej", "to": "wct", "type": "drive" },
+    { "from": "bej", "to": "jdy", "type": "drive" },
+    { "from": "jdy", "to": "kns", "type": "drive" },
+    { "from": "jdy", "to": "hm", "type": "drive" },
+    { "from": "hm", "to": "ahe", "type": "drive" },
+    { "from": "ahe", "to": "altay", "type": "drive" },
+    { "from": "altay", "to": "urc", "type": "drive" }
+  ]
+}
