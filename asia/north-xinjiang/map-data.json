@@ -89,7 +89,7 @@
       "lat": 48.62,
       "lng": 87.23,
       "img": "kanas_moon_bay.jpg",
-      "desc": "喀纳斯换乘基地。私家车停这里,区间车进山;住这里用'二进票'两次进山最划算。",
+      "desc": "喀纳斯换乘基地。私家车停这里,区间车进山;住这里两晚,用全域通票玩喀纳斯+白哈巴最划算。",
       "tags": ["山谷"],
       "docAnchor": "d4"
     },
@@ -100,9 +100,20 @@
       "lat": 48.71,
       "lng": 87.03,
       "img": "kanas_lake.jpg",
-      "desc": "冰碛堰塞湖与三湾栈道:奶蓝色河水拐过云杉林;次日清晨上观鱼台俯瞰整面变色湖。",
+      "desc": "冰碛堰塞湖与三湾栈道:奶蓝色河水拐过云杉林;清晨赶 8 点首班车上观鱼台(专线 20 元)俯瞰变色湖。",
       "tags": ["森林", "湖泊", "徒步"],
       "docAnchor": "d4"
+    },
+    {
+      "id": "bhb",
+      "name": "白哈巴村",
+      "aliases": ["白哈巴", "西北第一村", "中哈边境大峡谷"],
+      "lat": 48.686,
+      "lng": 86.783,
+      "img": "baihaba_village.jpg",
+      "desc": "中哈边境的'西北第一村',日限 3500 人,比禾木安静得多。需提前办电子边境通行证。",
+      "tags": ["村庄", "边境"],
+      "docAnchor": "d5"
     },
     {
       "id": "hm",
@@ -111,9 +122,9 @@
       "lat": 48.57,
       "lng": 87.44,
       "img": "hemu_village.jpg",
-      "desc": "图瓦人原木村落,全程最值得花钱的一晚:傍晚观景台看炊烟日落,清晨看晨雾漫过河谷。",
+      "desc": "图瓦人原木村落,全程最值得花钱的一晚(旺季 800~1500 元,务必提前订):傍晚炊烟日落,清晨晨雾漫过河谷。",
       "tags": ["村庄", "徒步", "晨雾"],
-      "docAnchor": "d5"
+      "docAnchor": "d6"
     },
     {
       "id": "mgc",
@@ -124,7 +135,7 @@
       "img": "urho_ghost_city.jpg",
       "desc": "乌尔禾风蚀雅丹群,观光小火车穿行其间;傍晚低角度光线把'城堡'从土黄烧成橙红。",
       "tags": ["雅丹", "岩石"],
-      "docAnchor": "d6"
+      "docAnchor": "d7"
     },
     {
       "id": "klmy",
@@ -135,7 +146,7 @@
       "img": "desert_highway_return.jpg",
       "desc": "油城功能性一晚:酒店新、停车易,为次日高速返程还车做缓冲。",
       "tags": ["城市"],
-      "docAnchor": "d6"
+      "docAnchor": "d7"
     },
     {
       "id": "dsz",
@@ -146,7 +157,7 @@
       "img": "dushanzi_canyon.jpg",
       "desc": "返程顺路彩蛋(仅当晚班机):奎屯河把戈壁切出 200 米深的千层岩沟壑。",
       "tags": ["峡谷"],
-      "docAnchor": "d7"
+      "docAnchor": "d8"
     }
   ],
   "routes": [
@@ -158,6 +169,7 @@
     { "from": "bej", "to": "wct", "type": "drive" },
     { "from": "bej", "to": "jdy", "type": "drive" },
     { "from": "jdy", "to": "kns", "type": "drive" },
+    { "from": "kns", "to": "bhb", "type": "drive" },
     { "from": "jdy", "to": "hm", "type": "drive" },
     { "from": "hm", "to": "mgc", "type": "drive" },
     { "from": "mgc", "to": "klmy", "type": "drive" },
