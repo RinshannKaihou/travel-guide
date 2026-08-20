@@ -1,0 +1,191 @@
+{
+  "plan_id": "north-xinjiang-friends",
+  "name": "北疆伊犁9天(朋友实测)",
+  "color": "#8338ec",
+  "center": [46.2, 85.0],
+  "zoom": 6,
+  "points": [
+    {
+      "id": "urc",
+      "name": "乌鲁木齐",
+      "aliases": ["乌市", "Urumqi", "地窝堡机场"],
+      "lat": 43.825,
+      "lng": 87.616,
+      "img": "urumqi_grand_bazaar.jpg",
+      "desc": "起终点。MU2299 晚班落地住机场旁,最后一天 G30 返程还车,19:55 飞西安。",
+      "tags": ["城市", "机场"],
+      "docAnchor": "d1"
+    },
+    {
+      "id": "tct",
+      "name": "天山天池",
+      "aliases": ["天池", "博格达峰"],
+      "lat": 43.885,
+      "lng": 88.135,
+      "img": "tianchi_lake.jpg",
+      "desc": "博格达峰雪线下的高山湖,套票 155 元含区间车,半天热身。",
+      "tags": ["湖泊", "山峰"],
+      "docAnchor": "d2"
+    },
+    {
+      "id": "cj",
+      "name": "昌吉",
+      "aliases": ["昌吉市"],
+      "lat": 44.013,
+      "lng": 87.308,
+      "img": "tianchi_lake.jpg",
+      "desc": "天池下山后的落脚点,朋友安排的本地晚餐。",
+      "tags": ["城市", "美食"],
+      "docAnchor": "d2"
+    },
+    {
+      "id": "hsmg",
+      "name": "海上魔鬼城",
+      "aliases": ["吉力湖"],
+      "lat": 46.97,
+      "lng": 87.42,
+      "img": "wulungu_lake.jpg",
+      "desc": "吉力湖畔的水上雅丹——风蚀岩丘立在水面上,与乌尔禾的戈壁雅丹完全不同。",
+      "tags": ["雅丹", "岩石"],
+      "docAnchor": "d3"
+    },
+    {
+      "id": "wlg",
+      "name": "乌伦古湖",
+      "aliases": ["布伦托海", "福海"],
+      "lat": 47.26,
+      "lng": 87.32,
+      "img": "wulungu_lake.jpg",
+      "desc": "新疆第二大湖,现场购票无需预约;芦苇荡与开阔水面,夜宿福海县城。",
+      "tags": ["湖泊", "自然"],
+      "docAnchor": "d3"
+    },
+    {
+      "id": "altay",
+      "name": "阿勒泰市",
+      "aliases": ["阿勒泰"],
+      "lat": 47.845,
+      "lng": 88.14,
+      "img": "ahe_highway.jpg",
+      "desc": "D4 车览日的途经点,阿禾公路的起点。",
+      "tags": ["城市", "途经"],
+      "docAnchor": "d4"
+    },
+    {
+      "id": "ahe",
+      "name": "阿禾公路",
+      "aliases": ["阿禾景观大道", "托勒海特草原"],
+      "lat": 48.2,
+      "lng": 87.8,
+      "img": "ahe_highway.jpg",
+      "desc": "209 km 景观大道:达坂、原始森林、草原、湿地,需预约(9:30-15:00 放行)。这一天的景点就是公路本身。",
+      "tags": ["山谷", "自然"],
+      "docAnchor": "d4"
+    },
+    {
+      "id": "hm",
+      "name": "禾木(途经)",
+      "aliases": ["禾木", "禾木门票站"],
+      "lat": 48.57,
+      "lng": 87.44,
+      "img": "hemu_village.jpg",
+      "desc": "阿禾公路终点方向,本版车览途经未进村——进村需门票 50 + 区间车 25,约 3 小时。",
+      "tags": ["村庄", "途经"],
+      "docAnchor": "d4"
+    },
+    {
+      "id": "jdy",
+      "name": "贾登峪",
+      "aliases": ["贾登峪门票站"],
+      "lat": 48.62,
+      "lng": 87.23,
+      "img": "kanas_moon_bay.jpg",
+      "desc": "喀纳斯换乘基地,连住两晚(实测 1428 元/两晚),D5 整天交给喀纳斯。",
+      "tags": ["山谷"],
+      "docAnchor": "d4"
+    },
+    {
+      "id": "kns",
+      "name": "喀纳斯湖",
+      "aliases": ["喀纳斯", "Kanas", "月亮湾", "卧龙湾", "神仙湾", "观鱼台"],
+      "lat": 48.71,
+      "lng": 87.03,
+      "img": "kanas_lake.jpg",
+      "desc": "一进票 230 元玩全天:早观鱼台、下午三湾栈道、傍晚湖边,20:00 末班车出山。",
+      "tags": ["森林", "湖泊", "徒步"],
+      "docAnchor": "d5"
+    },
+    {
+      "id": "jmn",
+      "name": "吉木乃(G219)",
+      "aliases": ["G219", "吉木乃县"],
+      "lat": 47.43,
+      "lng": 85.87,
+      "img": "gobi_desert_highway.jpg",
+      "desc": "G219 边境公路途经点:草原石城与戈壁交替,中哈边境线一路相伴。",
+      "tags": ["戈壁", "途经"],
+      "docAnchor": "d6"
+    },
+    {
+      "id": "hbx",
+      "name": "和布克赛尔(G219)",
+      "aliases": ["和布克赛尔县", "托里"],
+      "lat": 46.79,
+      "lng": 85.72,
+      "img": "gobi_desert_highway.jpg",
+      "desc": "G219 纵贯段:780 km 千里转场的中点,全天约 10 小时,两人轮换。",
+      "tags": ["戈壁", "途经"],
+      "docAnchor": "d6"
+    },
+    {
+      "id": "slh",
+      "name": "赛里木湖",
+      "aliases": ["赛湖", "Sayram Lake"],
+      "lat": 44.598,
+      "lng": 81.168,
+      "img": "sayram_lake.jpg",
+      "desc": "住景区内(实测 835 元),次日 90 km 逆时针环湖:东门进、南门出,正好衔接伊犁方向。",
+      "tags": ["湖泊", "自然"],
+      "docAnchor": "d7"
+    },
+    {
+      "id": "mkt",
+      "name": "孟克特古道",
+      "aliases": ["唐布拉", "尼勒克"],
+      "lat": 43.82,
+      "lng": 82.58,
+      "img": "duku_highway.jpg",
+      "desc": "唐布拉深处的砂石路秘境:200 元/车、只接待自驾,雪山云杉溪流相伴,需提前 3 天预约。",
+      "tags": ["草原", "徒步", "自然"],
+      "docAnchor": "d8"
+    },
+    {
+      "id": "qt",
+      "name": "奎屯",
+      "aliases": ["奎屯市", "独山子", "独库公路"],
+      "lat": 44.42,
+      "lng": 84.9,
+      "img": "duku_highway.jpg",
+      "desc": "独库北段的出口城市,休整一晚(实测 414 元),次日 G30 返程乌市。",
+      "tags": ["城市"],
+      "docAnchor": "d8"
+    }
+  ],
+  "routes": [
+    { "from": "urc", "to": "tct", "type": "drive" },
+    { "from": "tct", "to": "cj", "type": "drive" },
+    { "from": "cj", "to": "hsmg", "type": "drive" },
+    { "from": "hsmg", "to": "wlg", "type": "drive" },
+    { "from": "wlg", "to": "altay", "type": "drive" },
+    { "from": "altay", "to": "ahe", "type": "drive" },
+    { "from": "ahe", "to": "hm", "type": "drive" },
+    { "from": "hm", "to": "jdy", "type": "drive" },
+    { "from": "jdy", "to": "kns", "type": "drive" },
+    { "from": "jdy", "to": "jmn", "type": "drive" },
+    { "from": "jmn", "to": "hbx", "type": "drive" },
+    { "from": "hbx", "to": "slh", "type": "drive" },
+    { "from": "slh", "to": "mkt", "type": "drive" },
+    { "from": "mkt", "to": "qt", "type": "drive" },
+    { "from": "qt", "to": "urc", "type": "drive" }
+  ]
+}
